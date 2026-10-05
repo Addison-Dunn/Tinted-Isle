@@ -1,0 +1,6396 @@
+fileFormatVersion: 2
+guid: 2c087d0db0fcbf447afd38c9742eb9f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -450468873618539306
+    second: TintedIslePlantSheet_0
+  - first:
+      213: -7534220847001853099
+    second: TintedIslePlantSheet_1
+  - first:
+      213: 5998599593293845750
+    second: TintedIslePlantSheet_2
+  - first:
+      213: 5563653684521571191
+    second: TintedIslePlantSheet_3
+  - first:
+      213: 1019555463973002132
+    second: TintedIslePlantSheet_4
+  - first:
+      213: -4252428640532418281
+    second: TintedIslePlantSheet_5
+  - first:
+      213: 631786033512094740
+    second: TintedIslePlantSheet_6
+  - first:
+      213: -8561270862591999727
+    second: TintedIslePlantSheet_7
+  - first:
+      213: -9198171579898286060
+    second: TintedIslePlantSheet_8
+  - first:
+      213: -1759816560720942818
+    second: TintedIslePlantSheet_9
+  - first:
+      213: 617226249199165575
+    second: TintedIslePlantSheet_10
+  - first:
+      213: 7381506215853415338
+    second: TintedIslePlantSheet_11
+  - first:
+      213: 7838881822324484513
+    second: TintedIslePlantSheet_12
+  - first:
+      213: 3897173723737707037
+    second: TintedIslePlantSheet_13
+  - first:
+      213: -1069688574716119814
+    second: TintedIslePlantSheet_14
+  - first:
+      213: -2513353325976592276
+    second: TintedIslePlantSheet_15
+  - first:
+      213: 5314845413642362677
+    second: TintedIslePlantSheet_16
+  - first:
+      213: 3972423133090311060
+    second: TintedIslePlantSheet_17
+  - first:
+      213: -993979939384029511
+    second: TintedIslePlantSheet_18
+  - first:
+      213: -5676878126115273112
+    second: TintedIslePlantSheet_19
+  - first:
+      213: -7872552301573193406
+    second: TintedIslePlantSheet_20
+  - first:
+      213: 7536697058434666907
+    second: TintedIslePlantSheet_21
+  - first:
+      213: -3253725999432582787
+    second: TintedIslePlantSheet_22
+  - first:
+      213: -7880898550795126419
+    second: TintedIslePlantSheet_23
+  - first:
+      213: -6556711542721267196
+    second: TintedIslePlantSheet_24
+  - first:
+      213: -6666417422603745125
+    second: TintedIslePlantSheet_25
+  - first:
+      213: -4045473069689782790
+    second: TintedIslePlantSheet_26
+  - first:
+      213: -1992619142881715756
+    second: TintedIslePlantSheet_27
+  - first:
+      213: -2024123056348915355
+    second: TintedIslePlantSheet_28
+  - first:
+      213: -5417690088049087879
+    second: TintedIslePlantSheet_29
+  - first:
+      213: -1112534823516864200
+    second: TintedIslePlantSheet_30
+  - first:
+      213: -4277622681010957624
+    second: TintedIslePlantSheet_31
+  - first:
+      213: 6680686704177657152
+    second: TintedIslePlantSheet_32
+  - first:
+      213: 4250225888132990593
+    second: TintedIslePlantSheet_33
+  - first:
+      213: 6989794728732511099
+    second: TintedIslePlantSheet_34
+  - first:
+      213: 1224407601824374507
+    second: TintedIslePlantSheet_35
+  - first:
+      213: -801871584818109646
+    second: TintedIslePlantSheet_36
+  - first:
+      213: -3935683286329553771
+    second: TintedIslePlantSheet_37
+  - first:
+      213: 8353504351198290951
+    second: TintedIslePlantSheet_38
+  - first:
+      213: -2496799623776641302
+    second: TintedIslePlantSheet_39
+  - first:
+      213: -709834454604440853
+    second: TintedIslePlantSheet_40
+  - first:
+      213: 8241736913231715974
+    second: TintedIslePlantSheet_41
+  - first:
+      213: -7766542320679947591
+    second: TintedIslePlantSheet_42
+  - first:
+      213: -1012804993935731809
+    second: TintedIslePlantSheet_43
+  - first:
+      213: -300923353111814686
+    second: TintedIslePlantSheet_44
+  - first:
+      213: 3683716933805207929
+    second: TintedIslePlantSheet_45
+  - first:
+      213: -7067804322203724506
+    second: TintedIslePlantSheet_46
+  - first:
+      213: -4392713472358775409
+    second: TintedIslePlantSheet_47
+  - first:
+      213: -4367907044779605293
+    second: TintedIslePlantSheet_48
+  - first:
+      213: 8687471317279177060
+    second: TintedIslePlantSheet_49
+  - first:
+      213: -6459026048786814175
+    second: TintedIslePlantSheet_50
+  - first:
+      213: -2972549136620674118
+    second: TintedIslePlantSheet_51
+  - first:
+      213: -9217452027816360919
+    second: TintedIslePlantSheet_52
+  - first:
+      213: 5105043857420041998
+    second: TintedIslePlantSheet_53
+  - first:
+      213: 6308432907542531711
+    second: TintedIslePlantSheet_54
+  - first:
+      213: 639100648627162964
+    second: TintedIslePlantSheet_55
+  - first:
+      213: 6723707325240196090
+    second: TintedIslePlantSheet_56
+  - first:
+      213: 7804918371304092153
+    second: TintedIslePlantSheet_57
+  - first:
+      213: 3280023646813451163
+    second: TintedIslePlantSheet_58
+  - first:
+      213: -920215878447498411
+    second: TintedIslePlantSheet_59
+  - first:
+      213: -2678574589065228881
+    second: TintedIslePlantSheet_60
+  - first:
+      213: 4572433561223024427
+    second: TintedIslePlantSheet_61
+  - first:
+      213: -5591110471779827135
+    second: TintedIslePlantSheet_62
+  - first:
+      213: 6265985343954676645
+    second: TintedIslePlantSheet_63
+  - first:
+      213: 7980957403711766597
+    second: TintedIslePlantSheet_64
+  - first:
+      213: -3444520378966938331
+    second: TintedIslePlantSheet_65
+  - first:
+      213: -5921752634162897942
+    second: TintedIslePlantSheet_66
+  - first:
+      213: 8416612541572446477
+    second: TintedIslePlantSheet_67
+  - first:
+      213: 3416610016208939484
+    second: TintedIslePlantSheet_68
+  - first:
+      213: 8734063187257864629
+    second: TintedIslePlantSheet_69
+  - first:
+      213: 2025368533682137558
+    second: TintedIslePlantSheet_70
+  - first:
+      213: 6331010895869099142
+    second: TintedIslePlantSheet_71
+  - first:
+      213: -7340694933925277916
+    second: TintedIslePlantSheet_72
+  - first:
+      213: -7137513981722162848
+    second: TintedIslePlantSheet_73
+  - first:
+      213: 2913262966275504573
+    second: TintedIslePlantSheet_74
+  - first:
+      213: 1974499543389913057
+    second: TintedIslePlantSheet_75
+  - first:
+      213: 5642344166652332010
+    second: TintedIslePlantSheet_76
+  - first:
+      213: 1367494481184495478
+    second: TintedIslePlantSheet_77
+  - first:
+      213: 4132262160596999193
+    second: TintedIslePlantSheet_78
+  - first:
+      213: -825593959530018082
+    second: TintedIslePlantSheet_79
+  - first:
+      213: -5405848860131035986
+    second: TintedIslePlantSheet_80
+  - first:
+      213: 6717555515374181909
+    second: TintedIslePlantSheet_81
+  - first:
+      213: -6461474934799835231
+    second: TintedIslePlantSheet_82
+  - first:
+      213: 1450405715676049949
+    second: TintedIslePlantSheet_83
+  - first:
+      213: -8911432834273837432
+    second: TintedIslePlantSheet_84
+  - first:
+      213: -3365403303090208426
+    second: TintedIslePlantSheet_85
+  - first:
+      213: -607577631266714921
+    second: TintedIslePlantSheet_86
+  - first:
+      213: 7577538931833873972
+    second: TintedIslePlantSheet_87
+  - first:
+      213: -4851747439218418419
+    second: TintedIslePlantSheet_88
+  - first:
+      213: 7769953612910049477
+    second: TintedIslePlantSheet_89
+  - first:
+      213: -1454527965300965706
+    second: TintedIslePlantSheet_90
+  - first:
+      213: -3076407013117996547
+    second: TintedIslePlantSheet_91
+  - first:
+      213: 4150808845565673905
+    second: TintedIslePlantSheet_92
+  - first:
+      213: 8975982248741947810
+    second: TintedIslePlantSheet_93
+  - first:
+      213: 3106793031018275417
+    second: TintedIslePlantSheet_94
+  - first:
+      213: -7941129518094223928
+    second: TintedIslePlantSheet_95
+  - first:
+      213: -477628021145690984
+    second: TintedIslePlantSheet_96
+  - first:
+      213: 5987199001427247722
+    second: TintedIslePlantSheet_97
+  - first:
+      213: 3921348027233671552
+    second: TintedIslePlantSheet_98
+  - first:
+      213: 2258111671742885137
+    second: TintedIslePlantSheet_99
+  - first:
+      213: 2524102033711708762
+    second: TintedIslePlantSheet_100
+  - first:
+      213: 6083849199919967697
+    second: TintedIslePlantSheet_101
+  - first:
+      213: -5891686414182994211
+    second: TintedIslePlantSheet_102
+  - first:
+      213: 5044587820172298869
+    second: TintedIslePlantSheet_103
+  - first:
+      213: 471691320131810275
+    second: TintedIslePlantSheet_104
+  - first:
+      213: -5356040099740680862
+    second: TintedIslePlantSheet_105
+  - first:
+      213: 3443892231426451659
+    second: TintedIslePlantSheet_106
+  - first:
+      213: 3738499948712068938
+    second: TintedIslePlantSheet_107
+  - first:
+      213: -759279307510552648
+    second: TintedIslePlantSheet_108
+  - first:
+      213: 4098419797247829275
+    second: TintedIslePlantSheet_109
+  - first:
+      213: 5923303933639737783
+    second: TintedIslePlantSheet_110
+  - first:
+      213: -3610446989842336665
+    second: TintedIslePlantSheet_111
+  - first:
+      213: 868040289949349554
+    second: TintedIslePlantSheet_112
+  - first:
+      213: -4597052292788195187
+    second: TintedIslePlantSheet_113
+  - first:
+      213: 4437873849714285797
+    second: TintedIslePlantSheet_114
+  - first:
+      213: -2877141183335851883
+    second: TintedIslePlantSheet_115
+  - first:
+      213: 5125225527960757568
+    second: TintedIslePlantSheet_116
+  - first:
+      213: 6853715153948528923
+    second: TintedIslePlantSheet_117
+  - first:
+      213: 3633052124861955634
+    second: TintedIslePlantSheet_118
+  - first:
+      213: 2857739612111679212
+    second: TintedIslePlantSheet_119
+  - first:
+      213: 2227923942711011613
+    second: TintedIslePlantSheet_120
+  - first:
+      213: -4858983765849797108
+    second: TintedIslePlantSheet_121
+  - first:
+      213: 7718959908989823329
+    second: TintedIslePlantSheet_122
+  - first:
+      213: 6221159516503716622
+    second: TintedIslePlantSheet_123
+  - first:
+      213: -3399992400381219975
+    second: TintedIslePlantSheet_124
+  - first:
+      213: -8218319162132182044
+    second: TintedIslePlantSheet_125
+  - first:
+      213: 6754277328217303955
+    second: TintedIslePlantSheet_126
+  - first:
+      213: -1416670420508393427
+    second: TintedIslePlantSheet_127
+  - first:
+      213: -2865807465386211421
+    second: TintedIslePlantSheet_128
+  - first:
+      213: -8788648779033318295
+    second: TintedIslePlantSheet_129
+  - first:
+      213: 3087931288242352081
+    second: TintedIslePlantSheet_130
+  - first:
+      213: 2638920291135914092
+    second: TintedIslePlantSheet_131
+  - first:
+      213: 6851646432024030172
+    second: TintedIslePlantSheet_132
+  - first:
+      213: -3814311947607513579
+    second: TintedIslePlantSheet_133
+  - first:
+      213: -2577371990430035549
+    second: TintedIslePlantSheet_134
+  - first:
+      213: -1951762935676277869
+    second: TintedIslePlantSheet_135
+  - first:
+      213: 3615732196156078807
+    second: TintedIslePlantSheet_136
+  - first:
+      213: 3599641889010147963
+    second: TintedIslePlantSheet_137
+  - first:
+      213: -3099649104176594740
+    second: TintedIslePlantSheet_138
+  - first:
+      213: -7287527524525888430
+    second: TintedIslePlantSheet_139
+  - first:
+      213: -3801546007612651329
+    second: TintedIslePlantSheet_140
+  - first:
+      213: -3511758481705086628
+    second: TintedIslePlantSheet_141
+  - first:
+      213: 3161469975660529643
+    second: TintedIslePlantSheet_142
+  - first:
+      213: 5700389931708423900
+    second: TintedIslePlantSheet_143
+  - first:
+      213: 5830133982618641084
+    second: TintedIslePlantSheet_144
+  - first:
+      213: -7567393260236558740
+    second: TintedIslePlantSheet_145
+  - first:
+      213: -5079018904421689042
+    second: TintedIslePlantSheet_146
+  - first:
+      213: 3974074104915800584
+    second: TintedIslePlantSheet_147
+  - first:
+      213: -4459927529666476915
+    second: TintedIslePlantSheet_148
+  - first:
+      213: -3452328961926228188
+    second: TintedIslePlantSheet_149
+  - first:
+      213: -1173754168400907976
+    second: TintedIslePlantSheet_150
+  - first:
+      213: 8422479021650831694
+    second: TintedIslePlantSheet_151
+  - first:
+      213: 5246522544515872353
+    second: TintedIslePlantSheet_152
+  - first:
+      213: -6800108876126793660
+    second: TintedIslePlantSheet_153
+  - first:
+      213: 3885771638910670285
+    second: TintedIslePlantSheet_154
+  - first:
+      213: 3273487280046070262
+    second: TintedIslePlantSheet_155
+  - first:
+      213: -8194226316979470943
+    second: TintedIslePlantSheet_156
+  - first:
+      213: 6259583603102815883
+    second: TintedIslePlantSheet_157
+  - first:
+      213: -5285212613508154779
+    second: TintedIslePlantSheet_158
+  - first:
+      213: 4160567319866142218
+    second: TintedIslePlantSheet_159
+  - first:
+      213: 451825751969433472
+    second: TintedIslePlantSheet_160
+  - first:
+      213: 4305090391987615540
+    second: TintedIslePlantSheet_161
+  - first:
+      213: -6254140609256255877
+    second: TintedIslePlantSheet_162
+  - first:
+      213: -7721499544280727656
+    second: TintedIslePlantSheet_163
+  - first:
+      213: -3581864312126171682
+    second: TintedIslePlantSheet_164
+  - first:
+      213: -2685889447237043589
+    second: TintedIslePlantSheet_165
+  - first:
+      213: -7184407007961102837
+    second: TintedIslePlantSheet_166
+  - first:
+      213: 5127683685598929269
+    second: TintedIslePlantSheet_167
+  - first:
+      213: 6322110252597190970
+    second: TintedIslePlantSheet_168
+  - first:
+      213: 1396101765006646949
+    second: TintedIslePlantSheet_169
+  - first:
+      213: 590857246959373860
+    second: TintedIslePlantSheet_170
+  - first:
+      213: 1145087827893610101
+    second: TintedIslePlantSheet_171
+  - first:
+      213: 9121143811163126103
+    second: TintedIslePlantSheet_172
+  - first:
+      213: 9077771737376090724
+    second: TintedIslePlantSheet_173
+  - first:
+      213: -3371775092217298016
+    second: TintedIslePlantSheet_174
+  - first:
+      213: -2079850026412275854
+    second: TintedIslePlantSheet_175
+  - first:
+      213: -872151903776041071
+    second: TintedIslePlantSheet_176
+  - first:
+      213: 4791701259154699473
+    second: TintedIslePlantSheet_177
+  - first:
+      213: 8271023908794380742
+    second: TintedIslePlantSheet_178
+  - first:
+      213: 1184251716145438202
+    second: TintedIslePlantSheet_179
+  - first:
+      213: -5314105154386595791
+    second: TintedIslePlantSheet_180
+  - first:
+      213: 9206910258365786801
+    second: TintedIslePlantSheet_181
+  - first:
+      213: -8536403599559258729
+    second: TintedIslePlantSheet_182
+  - first:
+      213: -1857743006281190917
+    second: TintedIslePlantSheet_183
+  - first:
+      213: -4853936485923485111
+    second: TintedIslePlantSheet_184
+  - first:
+      213: -5564563672446918768
+    second: TintedIslePlantSheet_185
+  - first:
+      213: -6839478416336847589
+    second: TintedIslePlantSheet_186
+  - first:
+      213: -6525110531237108854
+    second: TintedIslePlantSheet_187
+  - first:
+      213: 3745665593833771711
+    second: TintedIslePlantSheet_188
+  - first:
+      213: 8535625472291643120
+    second: TintedIslePlantSheet_189
+  - first:
+      213: -4203714202423529262
+    second: TintedIslePlantSheet_190
+  - first:
+      213: 6639937395092734211
+    second: TintedIslePlantSheet_191
+  - first:
+      213: -7385820503061136474
+    second: TintedIslePlantSheet_192
+  - first:
+      213: 2865068772220718916
+    second: TintedIslePlantSheet_193
+  - first:
+      213: 8481632025469856728
+    second: TintedIslePlantSheet_194
+  - first:
+      213: 8953880872450756109
+    second: TintedIslePlantSheet_195
+  - first:
+      213: -6432463773881649844
+    second: TintedIslePlantSheet_196
+  - first:
+      213: -4894084321862143206
+    second: TintedIslePlantSheet_197
+  - first:
+      213: 4845031511153012349
+    second: TintedIslePlantSheet_198
+  - first:
+      213: -4259461129041559839
+    second: TintedIslePlantSheet_199
+  - first:
+      213: 1299864386064847616
+    second: TintedIslePlantSheet_200
+  - first:
+      213: -542941794717717919
+    second: TintedIslePlantSheet_201
+  - first:
+      213: 7690009318384619637
+    second: TintedIslePlantSheet_202
+  - first:
+      213: 3976383961675823610
+    second: TintedIslePlantSheet_203
+  - first:
+      213: -4628710547880921090
+    second: TintedIslePlantSheet_204
+  - first:
+      213: -8359254588024878064
+    second: TintedIslePlantSheet_205
+  - first:
+      213: -8130031839643384439
+    second: TintedIslePlantSheet_206
+  - first:
+      213: -180940351948393504
+    second: TintedIslePlantSheet_207
+  - first:
+      213: -2296103911996476561
+    second: TintedIslePlantSheet_208
+  - first:
+      213: 2580475714499143317
+    second: TintedIslePlantSheet_209
+  - first:
+      213: 138203765345832987
+    second: TintedIslePlantSheet_210
+  - first:
+      213: 6497818172410346883
+    second: TintedIslePlantSheet_211
+  - first:
+      213: -192874115120179314
+    second: TintedIslePlantSheet_212
+  - first:
+      213: -3377565838129536509
+    second: TintedIslePlantSheet_213
+  - first:
+      213: 3840913252003106315
+    second: TintedIslePlantSheet_214
+  - first:
+      213: -6831983851781403015
+    second: TintedIslePlantSheet_215
+  - first:
+      213: 93508750284433184
+    second: TintedIslePlantSheet_216
+  - first:
+      213: 3634348436884538602
+    second: TintedIslePlantSheet_217
+  - first:
+      213: 7211074555064429282
+    second: TintedIslePlantSheet_218
+  - first:
+      213: -4841301540976039034
+    second: TintedIslePlantSheet_219
+  - first:
+      213: -5486236363915424452
+    second: TintedIslePlantSheet_220
+  - first:
+      213: -2707146967956829385
+    second: TintedIslePlantSheet_221
+  - first:
+      213: 3684879125076909589
+    second: TintedIslePlantSheet_222
+  - first:
+      213: 2800452031487861532
+    second: TintedIslePlantSheet_223
+  - first:
+      213: 2525243459693287155
+    second: TintedIslePlantSheet_224
+  - first:
+      213: -4607748575556873664
+    second: TintedIslePlantSheet_225
+  - first:
+      213: 7207935959499871289
+    second: TintedIslePlantSheet_226
+  - first:
+      213: -542148867274634177
+    second: TintedIslePlantSheet_227
+  - first:
+      213: 7690455391783253652
+    second: TintedIslePlantSheet_228
+  - first:
+      213: 3054114586455547688
+    second: TintedIslePlantSheet_229
+  - first:
+      213: 1297743275892500181
+    second: TintedIslePlantSheet_230
+  - first:
+      213: 78469685114986251
+    second: TintedIslePlantSheet_231
+  - first:
+      213: -8266624515930278567
+    second: TintedIslePlantSheet_232
+  - first:
+      213: 2904863932398576839
+    second: TintedIslePlantSheet_233
+  - first:
+      213: 2040500526953823193
+    second: TintedIslePlantSheet_234
+  - first:
+      213: 5206144662663217770
+    second: TintedIslePlantSheet_235
+  - first:
+      213: 2643270574252886604
+    second: TintedIslePlantSheet_236
+  - first:
+      213: -614099809801623562
+    second: TintedIslePlantSheet_237
+  - first:
+      213: -1215185827973436248
+    second: TintedIslePlantSheet_238
+  - first:
+      213: 3017276158289902440
+    second: TintedIslePlantSheet_239
+  - first:
+      213: 4795782537688960744
+    second: TintedIslePlantSheet_240
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 115
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcb89532fc9fb9f0800000000000000
+      internalID: -450468873618539306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 115
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553ac13ce02117790800000000000000
+      internalID: -7534220847001853099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 115
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f415145c8e4f3350800000000000000
+      internalID: 5998599593293845750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 115
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773933f6c81163d40800000000000000
+      internalID: 5563653684521571191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 115
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b5beaea40362e00800000000000000
+      internalID: 1019555463973002132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 113
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7113e588ea65cf4c0800000000000000
+      internalID: -4252428640532418281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 113
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c9a85dc0e84c800800000000000000
+      internalID: 631786033512094740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_7
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 113
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1114d419281403980800000000000000
+      internalID: -8561270862591999727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 113
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410b11d9ea7895080800000000000000
+      internalID: -9198171579898286060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_9
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19e0647920e397e0800000000000000
+      internalID: -1759816560720942818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_10
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7802091e004d09800800000000000000
+      internalID: 617226249199165575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_11
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabd74f5bc0607660800000000000000
+      internalID: 7381506215853415338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9eae73c7d49cc60800000000000000
+      internalID: 7838881822324484513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_13
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d125f578ada851630800000000000000
+      internalID: 3897173723737707037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_14
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af470c3a8e3b721f0800000000000000
+      internalID: -1069688574716119814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_15
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c606e126776ce1dd0800000000000000
+      internalID: -2513353325976592276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_16
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f54449ebf12c940800000000000000
+      internalID: 5314845413642362677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_17
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b6461fac1e02730800000000000000
+      internalID: 3972423133090311060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be862fe28ca432f0800000000000000
+      internalID: -993979939384029511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_19
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866c6b3fb6da731b0800000000000000
+      internalID: -5676878126115273112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_20
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241cb0d64631fb290800000000000000
+      internalID: -7872552301573193406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_21
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91dab32b0ab79860800000000000000
+      internalID: 7536697058434666907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_22
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d793e57417178d2d0800000000000000
+      internalID: -3253725999432582787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_23
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6937f8d58c61a290800000000000000
+      internalID: -7880898550795126419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_24
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a35614791e105a0800000000000000
+      internalID: -6556711542721267196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_25
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b988a31aca02c73a0800000000000000
+      internalID: -6666417422603745125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_26
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 102
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd3bbc4da79bd7c0800000000000000
+      internalID: -4045473069689782790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_27
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 102
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d954e7627bc854e0800000000000000
+      internalID: -1992619142881715756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_28
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 102
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56915a4fdced8e3e0800000000000000
+      internalID: -2024123056348915355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_29
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 102
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97aedaea19f70d4b0800000000000000
+      internalID: -5417690088049087879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_30
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 102
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8318604f87b7f80f0800000000000000
+      internalID: -1112534823516864200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_31
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 112
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2103fd5d4d2a4c0800000000000000
+      internalID: -4277622681010957624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_32
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 112
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0453f22692196bc50800000000000000
+      internalID: 6680686704177657152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_33
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 112
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18606553de5dbfa30800000000000000
+      internalID: 4250225888132990593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_34
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 98
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bcff2b54db00160800000000000000
+      internalID: 6989794728732511099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_35
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 99
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee97070a38fdf010800000000000000
+      internalID: 1224407601824374507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_36
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 99
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233ef67ca0e2fd4f0800000000000000
+      internalID: -801871584818109646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_37
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 99
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c82e937e4a169c0800000000000000
+      internalID: -3935683286329553771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_38
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 99
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704aadad2fb9de370800000000000000
+      internalID: 8353504351198290951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_39
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 101
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeed67588f5995dd0800000000000000
+      internalID: -2496799623776641302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_40
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 98
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea18fb03592626f0800000000000000
+      internalID: -709834454604440853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_41
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 98
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e96655e08806270800000000000000
+      internalID: 8241736913231715974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_42
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b275d288e2b73490800000000000000
+      internalID: -7766542320679947591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_43
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9318bd593bc1f1f0800000000000000
+      internalID: -1012804993935731809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_44
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed96210ec7e2dbf0800000000000000
+      internalID: -300923353111814686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_45
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971fc8cb8013f1330800000000000000
+      internalID: 3683716933805207929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_46
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62593117a6d1aed90800000000000000
+      internalID: -7067804322203724506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_47
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f858bf7de52f903c0800000000000000
+      internalID: -4392713472358775409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_48
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d24cf75fa31263c0800000000000000
+      internalID: -4367907044779605293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_49
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469f1d68229109870800000000000000
+      internalID: 8687471317279177060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_50
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b211fa70eec56a0800000000000000
+      internalID: -6459026048786814175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_51
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3a45a3f426fb6d0800000000000000
+      internalID: -2972549136620674118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_52
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9244dc38738051080800000000000000
+      internalID: -9217452027816360919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_53
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fbf443752c8d640800000000000000
+      internalID: 5105043857420041998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_54
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e057f4e4e0c8750800000000000000
+      internalID: 6308432907542531711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_55
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fc42167aa8ed800800000000000000
+      internalID: 639100648627162964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_56
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb32a640386f4d50800000000000000
+      internalID: 6723707325240196090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_57
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1308e08e3a05c60800000000000000
+      internalID: 7804918371304092153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_58
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 102
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b937233e02cf48d20800000000000000
+      internalID: 3280023646813451163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_59
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 96
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b7678b88cba33f0800000000000000
+      internalID: -920215878447498411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_60
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 96
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad016a5a9ac3dad0800000000000000
+      internalID: -2678574589065228881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_61
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 96
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fc5cf191c847f30800000000000000
+      internalID: 4572433561223024427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_62
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142c89d16a26862b0800000000000000
+      internalID: -5591110471779827135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_63
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abe832c87045f650800000000000000
+      internalID: 6265985343954676645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_64
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54083c7497e02ce60800000000000000
+      internalID: 7980957403711766597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_65
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52de41617fa9230d0800000000000000
+      internalID: -3444520378966938331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_66
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb9cf0aa55b1dda0800000000000000
+      internalID: -5921752634162897942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_67
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09f5807380ddc470800000000000000
+      internalID: 8416612541572446477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_68
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9ec2035bc3a6f20800000000000000
+      internalID: 3416610016208939484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_69
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1325a9130a53970800000000000000
+      internalID: 8734063187257864629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_70
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9a06553fd8b1c10800000000000000
+      internalID: 2025368533682137558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_71
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68cb76dddd44cd750800000000000000
+      internalID: 6331010895869099142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_72
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fcfdaa9dc902a90800000000000000
+      internalID: -7340694933925277916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_73
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069011c89d472fc90800000000000000
+      internalID: -7137513981722162848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_74
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9f6229b3dfd6820800000000000000
+      internalID: 2913262966275504573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_75
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef3de49fd4d66b10800000000000000
+      internalID: 1974499543389913057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_76
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae74fc90022ad4e40800000000000000
+      internalID: 5642344166652332010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_77
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6771f4f3cf05af210800000000000000
+      internalID: 1367494481184495478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_78
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c1c299a8eb85930800000000000000
+      internalID: 4132262160596999193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_79
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda41810ba6ea84f0800000000000000
+      internalID: -825593959530018082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_80
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea470766a119af4b0800000000000000
+      internalID: -5405848860131035986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_81
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e18dc662d893d50800000000000000
+      internalID: 6717555515374181909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_82
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af5a2af7ca3456a0800000000000000
+      internalID: -6461474934799835231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_83
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1231175050e02410800000000000000
+      internalID: 1450405715676049949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_84
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88efa515d0b345480800000000000000
+      internalID: -8911432834273837432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_85
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651c169c68fab41d0800000000000000
+      internalID: -3365403303090208426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_86
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dacfda0d537197f0800000000000000
+      internalID: -607577631266714921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_87
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436a6afc283d82960800000000000000
+      internalID: 7577538931833873972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_88
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 86
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d9971e8612bacb0800000000000000
+      internalID: -4851747439218418419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_89
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 86
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c834cad4ab64db60800000000000000
+      internalID: 7769953612910049477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_90
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 86
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be3d50a58a70dbe0800000000000000
+      internalID: -1454527965300965706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_91
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 86
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1d49efe186e45d0800000000000000
+      internalID: -3076407013117996547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_92
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 86
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1cd7237a2aa9930800000000000000
+      internalID: 4150808845565673905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_93
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 86
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9c9766c48119c70800000000000000
+      internalID: 8975982248741947810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_94
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 80
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952e08c1dcb8d1b20800000000000000
+      internalID: 3106793031018275417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_95
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 80
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5ff96f6c07bc190800000000000000
+      internalID: -7941129518094223928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_96
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 80
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c96d868df1f59f0800000000000000
+      internalID: -477628021145690984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_97
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 70
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6205af25cdc61350800000000000000
+      internalID: 5987199001427247722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_98
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 70
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08911fb214d6b6630800000000000000
+      internalID: 3921348027233671552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_99
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 70
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11de569f99c665f10800000000000000
+      internalID: 2258111671742885137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_100
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 70
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a3a382d69670320800000000000000
+      internalID: 2524102033711708762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_101
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 70
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd264c1d9c2e6450800000000000000
+      internalID: 6083849199919967697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_102
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 70
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddea0aafb668c3ea0800000000000000
+      internalID: -5891686414182994211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_103
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 70
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ac1a325e9f10640800000000000000
+      internalID: 5044587820172298869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_104
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 70
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3771ca1c8cb8600800000000000000
+      internalID: 471691320131810275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_105
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 70
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d753428e58ba5b0800000000000000
+      internalID: -5356040099740680862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_106
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 70
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8a6eaecb92bcf20800000000000000
+      internalID: 3443892231426451659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_107
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a478ccb55e1d1e330800000000000000
+      internalID: 3738499948712068938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_108
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7678e1e7f7675f0800000000000000
+      internalID: -759279307510552648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_109
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15a26b571380e830800000000000000
+      internalID: 4098419797247829275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_110
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1454d6b8dc33250800000000000000
+      internalID: 5923303933639737783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_111
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764b11a779d15edc0800000000000000
+      internalID: -3610446989842336665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_112
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6782d6b06eb0c00800000000000000
+      internalID: 868040289949349554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_113
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80f672cb4df330c0800000000000000
+      internalID: -4597052292788195187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_114
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec1732e0ce769d30800000000000000
+      internalID: 4437873849714285797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_115
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5989e9666575218d0800000000000000
+      internalID: -2877141183335851883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_116
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0456ddb8675702740800000000000000
+      internalID: 5125225527960757568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_117
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1150d6be994d1f50800000000000000
+      internalID: 6853715153948528923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_118
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23effd8a8a13b6230800000000000000
+      internalID: 3633052124861955634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_119
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceeaa78490bb8a720800000000000000
+      internalID: 2857739612111679212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_120
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19a0e7950d2bee10800000000000000
+      internalID: 2227923942711011613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_121
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e022b420c619cb0800000000000000
+      internalID: -4858983765849797108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_122
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169e1d2f3214f1b60800000000000000
+      internalID: 7718959908989823329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_123
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 70
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03be308e9ff55650800000000000000
+      internalID: 6221159516503716622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_124
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 70
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bef300decc0d0d0800000000000000
+      internalID: -3399992400381219975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_125
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 70
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb435ab34aa2fd80800000000000000
+      internalID: -8218319162132182044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_126
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 70
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39beddeb1730cbd50800000000000000
+      internalID: 6754277328217303955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_127
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 70
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d204bc522c9f65ce0800000000000000
+      internalID: -1416670420508393427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_128
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 70
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a70efe3b4b9a38d0800000000000000
+      internalID: -2865807465386211421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_129
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 54
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c6c0eef72780680800000000000000
+      internalID: -8788648779033318295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_130
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 54
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfef7665298ada20800000000000000
+      internalID: 3087931288242352081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_131
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 54
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c600abfe5045f9420800000000000000
+      internalID: 2638920291135914092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_132
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 54
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb6d5bd020f51f50800000000000000
+      internalID: 6851646432024030172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_133
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 54
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51663542e77d01bc0800000000000000
+      internalID: -3814311947607513579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_134
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 54
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1506884d55b3cd0800000000000000
+      internalID: -2577371990430035549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_135
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 54
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bed3d63f1f9e4e0800000000000000
+      internalID: -1951762935676277869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_136
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 54
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da73d28649ad2230800000000000000
+      internalID: 3615732196156078807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_137
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 54
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72e011f93f74f130800000000000000
+      internalID: 3599641889010147963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_138
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 54
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc04239ff85dbf4d0800000000000000
+      internalID: -3099649104176594740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_139
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ca0c1d3508dda90800000000000000
+      internalID: -7287527524525888430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_140
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb881fa2c023e3bc0800000000000000
+      internalID: -3801546007612651329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_141
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51d009544ab34fc0800000000000000
+      internalID: -3511758481705086628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_142
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be70f43513ccfdb20800000000000000
+      internalID: 3161469975660529643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_143
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde91b0e07adb1f40800000000000000
+      internalID: 5700389931708423900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_144
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2eae2c7fbc8e050800000000000000
+      internalID: 5830133982618641084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_145
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e2aef6ce73bf690800000000000000
+      internalID: -7567393260236558740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_146
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29937a5733b389b0800000000000000
+      internalID: -5079018904421689042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_147
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802b596c75fb62730800000000000000
+      internalID: 3974074104915800584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_148
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d848e3e9a872b12c0800000000000000
+      internalID: -4459927529666476915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_149
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4271890b91dd610d0800000000000000
+      internalID: -3452328961926228188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_150
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83174da7dccf5bfe0800000000000000
+      internalID: -1173754168400907976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_151
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e496da5cb08a2e470800000000000000
+      internalID: 8422479021650831694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_152
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16672fbf4746fc840800000000000000
+      internalID: 5246522544515872353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_153
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4405b74710921a1a0800000000000000
+      internalID: -6800108876126793660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_154
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5de87c7b80de530800000000000000
+      internalID: 3885771638910670285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_155
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9d7e76653cd6d20800000000000000
+      internalID: 3273487280046070262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_156
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adf74f5492484e80800000000000000
+      internalID: -8194226316979470943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_157
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 38
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b869dc05f128ed650800000000000000
+      internalID: 6259583603102815883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_158
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 38
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56abe69512727a6b0800000000000000
+      internalID: -5285212613508154779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_159
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 38
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e68bc0fed4db930800000000000000
+      internalID: 4160567319866142218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_160
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 38
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0870386a025354600800000000000000
+      internalID: 451825751969433472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_161
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 38
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4377e54f6e0cebb30800000000000000
+      internalID: 4305090391987615540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_162
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 38
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e8fe17044d439a0800000000000000
+      internalID: -6254140609256255877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_163
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 38
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f7ec12319b7d490800000000000000
+      internalID: -7721499544280727656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_164
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 19
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5121ab269aa4ec0800000000000000
+      internalID: -3581864312126171682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_165
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 38
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a377737cdc9bad0800000000000000
+      internalID: -2685889447237043589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_166
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 38
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06c6a014ebdb4c90800000000000000
+      internalID: -7184407007961102837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_167
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 38
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571a0b8f421392740800000000000000
+      internalID: 5127683685598929269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_168
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 38
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3129ec57c5acb750800000000000000
+      internalID: 6322110252597190970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_169
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 38
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae548d8823ff5310800000000000000
+      internalID: 1396101765006646949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_170
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 38
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e8afd1985233800800000000000000
+      internalID: 590857246959373860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_171
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576e832005b24ef00800000000000000
+      internalID: 1145087827893610101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_172
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75971a968ffc49e70800000000000000
+      internalID: 9121143811163126103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_173
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ae16e8c49bafd70800000000000000
+      internalID: 9077771737376090724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_174
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3c0e50b6c0531d0800000000000000
+      internalID: -3371775092217298016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_175
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2770c95ab63e223e0800000000000000
+      internalID: -2079850026412275854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_176
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1979f31e67e75e3f0800000000000000
+      internalID: -872151903776041071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_177
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d435bd58ea8f7240800000000000000
+      internalID: 4791701259154699473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_178
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1b37c5c6498c270800000000000000
+      internalID: 8271023908794380742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_179
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afdde7159ae4f6010800000000000000
+      internalID: 1184251716145438202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_180
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130f6b574818046b0800000000000000
+      internalID: -5314105154386595791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_181
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1baeac4891485cf70800000000000000
+      internalID: 9206910258365786801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_182
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d87ec672a988980800000000000000
+      internalID: -8536403599559258729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_183
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1b4aa1498f736e0800000000000000
+      internalID: -1857743006281190917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_184
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a093abb7a53acb0800000000000000
+      internalID: -4853936485923485111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_185
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f12cd72d2b6c2b0800000000000000
+      internalID: -5564563672446918768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_186
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d7a411e9a4511a0800000000000000
+      internalID: -6839478416336847589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_187
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83a3791b862275a0800000000000000
+      internalID: -6525110531237108854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_188
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb25ddf13074bf330800000000000000
+      internalID: 3745665593833771711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_189
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 18
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe18b3b422a47670800000000000000
+      internalID: 8535625472291643120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_190
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 19
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0f743843869a5c0800000000000000
+      internalID: -4203714202423529262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_191
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 13
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301c55581ebc52c50800000000000000
+      internalID: 6639937395092734211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_192
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 13
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab7e3c526b408990800000000000000
+      internalID: -7385820503061136474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_193
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fc7495ed4c2c720800000000000000
+      internalID: 2865068772220718916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_194
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db25b9b36fc4b570800000000000000
+      internalID: 8481632025469856728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_195
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e879bb633924c70800000000000000
+      internalID: 8953880872450756109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_196
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45373f374c4bb6a0800000000000000
+      internalID: -6432463773881649844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_197
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13399e3d38b41cb0800000000000000
+      internalID: -4894084321862143206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_198
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e69d34d720d3340800000000000000
+      internalID: 4845031511153012349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_199
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eeb4e4bbaa53e4c0800000000000000
+      internalID: -4259461129041559839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_200
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003939ba5cb0a0210800000000000000
+      internalID: 1299864386064847616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_201
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a232870551778f0800000000000000
+      internalID: -542941794717717919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_202
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57052cd4bb668ba60800000000000000
+      internalID: 7690009318384619637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_203
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af97f363524fe2730800000000000000
+      internalID: 3976383961675823610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_204
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef73479d74483cfb0800000000000000
+      internalID: -4628710547880921090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_205
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c09bdcd36fdfb80800000000000000
+      internalID: -8359254588024878064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_206
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985c079dd135c2f80800000000000000
+      internalID: -8130031839643384439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_207
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3f49465bb2d7df0800000000000000
+      internalID: -180940351948393504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_208
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63b01648a99220e0800000000000000
+      internalID: -2296103911996476561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_209
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5966e3a8df0bfc320800000000000000
+      internalID: 2580475714499143317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_210
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b105f04a79ffae100800000000000000
+      internalID: 138203765345832987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_211
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 22
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38db89d6333ec2a50800000000000000
+      internalID: 6497818172410346883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_212
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 22
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87d4e1a306c25df0800000000000000
+      internalID: -192874115120179314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_213
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 22
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3026bcce3c97021d0800000000000000
+      internalID: -3377565838129536509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_214
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 22
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e4cbea04aad4530800000000000000
+      internalID: 3840913252003106315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_215
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 6
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e4d5b52eaef21a0800000000000000
+      internalID: -6831983851781403015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_216
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 3
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027281486b53c4100800000000000000
+      internalID: 93508750284433184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_217
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 4
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4cf72d5accf6230800000000000000
+      internalID: 3634348436884538602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_218
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 3
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea29771a12e21460800000000000000
+      internalID: 7211074555064429282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_219
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b629716ed30dcb0800000000000000
+      internalID: -4841301540976039034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_220
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d8df62819fcd3b0800000000000000
+      internalID: -5486236363915424452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_221
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b482cfc284e6ad0800000000000000
+      internalID: -2707146967956829385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_222
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e167a7a02532330800000000000000
+      internalID: 3684879125076909589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_223
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13ea5309443dd620800000000000000
+      internalID: 2800452031487861532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_224
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6956a1c877b0320800000000000000
+      internalID: 2525243459693287155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_225
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042de9b551dfd00c0800000000000000
+      internalID: -4607748575556873664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_226
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93411cdd09bb70460800000000000000
+      internalID: 7207935959499871289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_227
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c07b64a76e978f0800000000000000
+      internalID: -542148867274634177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_228
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4967a3cde6cf9ba60800000000000000
+      internalID: 7690455391783253652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_229
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f9505f805626a20800000000000000
+      internalID: 3054114586455547688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_230
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6693932a2820210800000000000000
+      internalID: 1297743275892500181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_231
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f5aea43c7c61100800000000000000
+      internalID: 78469685114986251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_232
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955b07c1dcc074d80800000000000000
+      internalID: -8266624515930278567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_233
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4267b1b56205820800000000000000
+      internalID: 2904863932398576839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_234
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db74111b60515c10800000000000000
+      internalID: 2040500526953823193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_235
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a624653ccf0ff3840800000000000000
+      internalID: 5206144662663217770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_236
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 6
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a06972598cea420800000000000000
+      internalID: 2643270574252886604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_237
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 6
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7a3240a774a77f0800000000000000
+      internalID: -614099809801623562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_238
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 6
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aced838deac22fe0800000000000000
+      internalID: -1215185827973436248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_239
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 6
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bff140ea48fd920800000000000000
+      internalID: 3017276158289902440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedIslePlantSheet_240
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 6
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eec8f21fca0e8240800000000000000
+      internalID: 4795782537688960744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TintedIslePlantSheet_0: -450468873618539306
+      TintedIslePlantSheet_1: -7534220847001853099
+      TintedIslePlantSheet_10: 617226249199165575
+      TintedIslePlantSheet_100: 2524102033711708762
+      TintedIslePlantSheet_101: 6083849199919967697
+      TintedIslePlantSheet_102: -5891686414182994211
+      TintedIslePlantSheet_103: 5044587820172298869
+      TintedIslePlantSheet_104: 471691320131810275
+      TintedIslePlantSheet_105: -5356040099740680862
+      TintedIslePlantSheet_106: 3443892231426451659
+      TintedIslePlantSheet_107: 3738499948712068938
+      TintedIslePlantSheet_108: -759279307510552648
+      TintedIslePlantSheet_109: 4098419797247829275
+      TintedIslePlantSheet_11: 7381506215853415338
+      TintedIslePlantSheet_110: 5923303933639737783
+      TintedIslePlantSheet_111: -3610446989842336665
+      TintedIslePlantSheet_112: 868040289949349554
+      TintedIslePlantSheet_113: -4597052292788195187
+      TintedIslePlantSheet_114: 4437873849714285797
+      TintedIslePlantSheet_115: -2877141183335851883
+      TintedIslePlantSheet_116: 5125225527960757568
+      TintedIslePlantSheet_117: 6853715153948528923
+      TintedIslePlantSheet_118: 3633052124861955634
+      TintedIslePlantSheet_119: 2857739612111679212
+      TintedIslePlantSheet_12: 7838881822324484513
+      TintedIslePlantSheet_120: 2227923942711011613
+      TintedIslePlantSheet_121: -4858983765849797108
+      TintedIslePlantSheet_122: 7718959908989823329
+      TintedIslePlantSheet_123: 6221159516503716622
+      TintedIslePlantSheet_124: -3399992400381219975
+      TintedIslePlantSheet_125: -8218319162132182044
+      TintedIslePlantSheet_126: 6754277328217303955
+      TintedIslePlantSheet_127: -1416670420508393427
+      TintedIslePlantSheet_128: -2865807465386211421
+      TintedIslePlantSheet_129: -8788648779033318295
+      TintedIslePlantSheet_13: 3897173723737707037
+      TintedIslePlantSheet_130: 3087931288242352081
+      TintedIslePlantSheet_131: 2638920291135914092
+      TintedIslePlantSheet_132: 6851646432024030172
+      TintedIslePlantSheet_133: -3814311947607513579
+      TintedIslePlantSheet_134: -2577371990430035549
+      TintedIslePlantSheet_135: -1951762935676277869
+      TintedIslePlantSheet_136: 3615732196156078807
+      TintedIslePlantSheet_137: 3599641889010147963
+      TintedIslePlantSheet_138: -3099649104176594740
+      TintedIslePlantSheet_139: -7287527524525888430
+      TintedIslePlantSheet_14: -1069688574716119814
+      TintedIslePlantSheet_140: -3801546007612651329
+      TintedIslePlantSheet_141: -3511758481705086628
+      TintedIslePlantSheet_142: 3161469975660529643
+      TintedIslePlantSheet_143: 5700389931708423900
+      TintedIslePlantSheet_144: 5830133982618641084
+      TintedIslePlantSheet_145: -7567393260236558740
+      TintedIslePlantSheet_146: -5079018904421689042
+      TintedIslePlantSheet_147: 3974074104915800584
+      TintedIslePlantSheet_148: -4459927529666476915
+      TintedIslePlantSheet_149: -3452328961926228188
+      TintedIslePlantSheet_15: -2513353325976592276
+      TintedIslePlantSheet_150: -1173754168400907976
+      TintedIslePlantSheet_151: 8422479021650831694
+      TintedIslePlantSheet_152: 5246522544515872353
+      TintedIslePlantSheet_153: -6800108876126793660
+      TintedIslePlantSheet_154: 3885771638910670285
+      TintedIslePlantSheet_155: 3273487280046070262
+      TintedIslePlantSheet_156: -8194226316979470943
+      TintedIslePlantSheet_157: 6259583603102815883
+      TintedIslePlantSheet_158: -5285212613508154779
+      TintedIslePlantSheet_159: 4160567319866142218
+      TintedIslePlantSheet_16: 5314845413642362677
+      TintedIslePlantSheet_160: 451825751969433472
+      TintedIslePlantSheet_161: 4305090391987615540
+      TintedIslePlantSheet_162: -6254140609256255877
+      TintedIslePlantSheet_163: -7721499544280727656
+      TintedIslePlantSheet_164: -3581864312126171682
+      TintedIslePlantSheet_165: -2685889447237043589
+      TintedIslePlantSheet_166: -7184407007961102837
+      TintedIslePlantSheet_167: 5127683685598929269
+      TintedIslePlantSheet_168: 6322110252597190970
+      TintedIslePlantSheet_169: 1396101765006646949
+      TintedIslePlantSheet_17: 3972423133090311060
+      TintedIslePlantSheet_170: 590857246959373860
+      TintedIslePlantSheet_171: 1145087827893610101
+      TintedIslePlantSheet_172: 9121143811163126103
+      TintedIslePlantSheet_173: 9077771737376090724
+      TintedIslePlantSheet_174: -3371775092217298016
+      TintedIslePlantSheet_175: -2079850026412275854
+      TintedIslePlantSheet_176: -872151903776041071
+      TintedIslePlantSheet_177: 4791701259154699473
+      TintedIslePlantSheet_178: 8271023908794380742
+      TintedIslePlantSheet_179: 1184251716145438202
+      TintedIslePlantSheet_18: -993979939384029511
+      TintedIslePlantSheet_180: -5314105154386595791
+      TintedIslePlantSheet_181: 9206910258365786801
+      TintedIslePlantSheet_182: -8536403599559258729
+      TintedIslePlantSheet_183: -1857743006281190917
+      TintedIslePlantSheet_184: -4853936485923485111
+      TintedIslePlantSheet_185: -5564563672446918768
+      TintedIslePlantSheet_186: -6839478416336847589
+      TintedIslePlantSheet_187: -6525110531237108854
+      TintedIslePlantSheet_188: 3745665593833771711
+      TintedIslePlantSheet_189: 8535625472291643120
+      TintedIslePlantSheet_19: -5676878126115273112
+      TintedIslePlantSheet_190: -4203714202423529262
+      TintedIslePlantSheet_191: 6639937395092734211
+      TintedIslePlantSheet_192: -7385820503061136474
+      TintedIslePlantSheet_193: 2865068772220718916
+      TintedIslePlantSheet_194: 8481632025469856728
+      TintedIslePlantSheet_195: 8953880872450756109
+      TintedIslePlantSheet_196: -6432463773881649844
+      TintedIslePlantSheet_197: -4894084321862143206
+      TintedIslePlantSheet_198: 4845031511153012349
+      TintedIslePlantSheet_199: -4259461129041559839
+      TintedIslePlantSheet_2: 5998599593293845750
+      TintedIslePlantSheet_20: -7872552301573193406
+      TintedIslePlantSheet_200: 1299864386064847616
+      TintedIslePlantSheet_201: -542941794717717919
+      TintedIslePlantSheet_202: 7690009318384619637
+      TintedIslePlantSheet_203: 3976383961675823610
+      TintedIslePlantSheet_204: -4628710547880921090
+      TintedIslePlantSheet_205: -8359254588024878064
+      TintedIslePlantSheet_206: -8130031839643384439
+      TintedIslePlantSheet_207: -180940351948393504
+      TintedIslePlantSheet_208: -2296103911996476561
+      TintedIslePlantSheet_209: 2580475714499143317
+      TintedIslePlantSheet_21: 7536697058434666907
+      TintedIslePlantSheet_210: 138203765345832987
+      TintedIslePlantSheet_211: 6497818172410346883
+      TintedIslePlantSheet_212: -192874115120179314
+      TintedIslePlantSheet_213: -3377565838129536509
+      TintedIslePlantSheet_214: 3840913252003106315
+      TintedIslePlantSheet_215: -6831983851781403015
+      TintedIslePlantSheet_216: 93508750284433184
+      TintedIslePlantSheet_217: 3634348436884538602
+      TintedIslePlantSheet_218: 7211074555064429282
+      TintedIslePlantSheet_219: -4841301540976039034
+      TintedIslePlantSheet_22: -3253725999432582787
+      TintedIslePlantSheet_220: -5486236363915424452
+      TintedIslePlantSheet_221: -2707146967956829385
+      TintedIslePlantSheet_222: 3684879125076909589
+      TintedIslePlantSheet_223: 2800452031487861532
+      TintedIslePlantSheet_224: 2525243459693287155
+      TintedIslePlantSheet_225: -4607748575556873664
+      TintedIslePlantSheet_226: 7207935959499871289
+      TintedIslePlantSheet_227: -542148867274634177
+      TintedIslePlantSheet_228: 7690455391783253652
+      TintedIslePlantSheet_229: 3054114586455547688
+      TintedIslePlantSheet_23: -7880898550795126419
+      TintedIslePlantSheet_230: 1297743275892500181
+      TintedIslePlantSheet_231: 78469685114986251
+      TintedIslePlantSheet_232: -8266624515930278567
+      TintedIslePlantSheet_233: 2904863932398576839
+      TintedIslePlantSheet_234: 2040500526953823193
+      TintedIslePlantSheet_235: 5206144662663217770
+      TintedIslePlantSheet_236: 2643270574252886604
+      TintedIslePlantSheet_237: -614099809801623562
+      TintedIslePlantSheet_238: -1215185827973436248
+      TintedIslePlantSheet_239: 3017276158289902440
+      TintedIslePlantSheet_24: -6556711542721267196
+      TintedIslePlantSheet_240: 4795782537688960744
+      TintedIslePlantSheet_25: -6666417422603745125
+      TintedIslePlantSheet_26: -4045473069689782790
+      TintedIslePlantSheet_27: -1992619142881715756
+      TintedIslePlantSheet_28: -2024123056348915355
+      TintedIslePlantSheet_29: -5417690088049087879
+      TintedIslePlantSheet_3: 5563653684521571191
+      TintedIslePlantSheet_30: -1112534823516864200
+      TintedIslePlantSheet_31: -4277622681010957624
+      TintedIslePlantSheet_32: 6680686704177657152
+      TintedIslePlantSheet_33: 4250225888132990593
+      TintedIslePlantSheet_34: 6989794728732511099
+      TintedIslePlantSheet_35: 1224407601824374507
+      TintedIslePlantSheet_36: -801871584818109646
+      TintedIslePlantSheet_37: -3935683286329553771
+      TintedIslePlantSheet_38: 8353504351198290951
+      TintedIslePlantSheet_39: -2496799623776641302
+      TintedIslePlantSheet_4: 1019555463973002132
+      TintedIslePlantSheet_40: -709834454604440853
+      TintedIslePlantSheet_41: 8241736913231715974
+      TintedIslePlantSheet_42: -7766542320679947591
+      TintedIslePlantSheet_43: -1012804993935731809
+      TintedIslePlantSheet_44: -300923353111814686
+      TintedIslePlantSheet_45: 3683716933805207929
+      TintedIslePlantSheet_46: -7067804322203724506
+      TintedIslePlantSheet_47: -4392713472358775409
+      TintedIslePlantSheet_48: -4367907044779605293
+      TintedIslePlantSheet_49: 8687471317279177060
+      TintedIslePlantSheet_5: -4252428640532418281
+      TintedIslePlantSheet_50: -6459026048786814175
+      TintedIslePlantSheet_51: -2972549136620674118
+      TintedIslePlantSheet_52: -9217452027816360919
+      TintedIslePlantSheet_53: 5105043857420041998
+      TintedIslePlantSheet_54: 6308432907542531711
+      TintedIslePlantSheet_55: 639100648627162964
+      TintedIslePlantSheet_56: 6723707325240196090
+      TintedIslePlantSheet_57: 7804918371304092153
+      TintedIslePlantSheet_58: 3280023646813451163
+      TintedIslePlantSheet_59: -920215878447498411
+      TintedIslePlantSheet_6: 631786033512094740
+      TintedIslePlantSheet_60: -2678574589065228881
+      TintedIslePlantSheet_61: 4572433561223024427
+      TintedIslePlantSheet_62: -5591110471779827135
+      TintedIslePlantSheet_63: 6265985343954676645
+      TintedIslePlantSheet_64: 7980957403711766597
+      TintedIslePlantSheet_65: -3444520378966938331
+      TintedIslePlantSheet_66: -5921752634162897942
+      TintedIslePlantSheet_67: 8416612541572446477
+      TintedIslePlantSheet_68: 3416610016208939484
+      TintedIslePlantSheet_69: 8734063187257864629
+      TintedIslePlantSheet_7: -8561270862591999727
+      TintedIslePlantSheet_70: 2025368533682137558
+      TintedIslePlantSheet_71: 6331010895869099142
+      TintedIslePlantSheet_72: -7340694933925277916
+      TintedIslePlantSheet_73: -7137513981722162848
+      TintedIslePlantSheet_74: 2913262966275504573
+      TintedIslePlantSheet_75: 1974499543389913057
+      TintedIslePlantSheet_76: 5642344166652332010
+      TintedIslePlantSheet_77: 1367494481184495478
+      TintedIslePlantSheet_78: 4132262160596999193
+      TintedIslePlantSheet_79: -825593959530018082
+      TintedIslePlantSheet_8: -9198171579898286060
+      TintedIslePlantSheet_80: -5405848860131035986
+      TintedIslePlantSheet_81: 6717555515374181909
+      TintedIslePlantSheet_82: -6461474934799835231
+      TintedIslePlantSheet_83: 1450405715676049949
+      TintedIslePlantSheet_84: -8911432834273837432
+      TintedIslePlantSheet_85: -3365403303090208426
+      TintedIslePlantSheet_86: -607577631266714921
+      TintedIslePlantSheet_87: 7577538931833873972
+      TintedIslePlantSheet_88: -4851747439218418419
+      TintedIslePlantSheet_89: 7769953612910049477
+      TintedIslePlantSheet_9: -1759816560720942818
+      TintedIslePlantSheet_90: -1454527965300965706
+      TintedIslePlantSheet_91: -3076407013117996547
+      TintedIslePlantSheet_92: 4150808845565673905
+      TintedIslePlantSheet_93: 8975982248741947810
+      TintedIslePlantSheet_94: 3106793031018275417
+      TintedIslePlantSheet_95: -7941129518094223928
+      TintedIslePlantSheet_96: -477628021145690984
+      TintedIslePlantSheet_97: 5987199001427247722
+      TintedIslePlantSheet_98: 3921348027233671552
+      TintedIslePlantSheet_99: 2258111671742885137
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

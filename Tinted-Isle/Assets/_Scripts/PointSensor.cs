@@ -3,15 +3,14 @@ using UnityEngine.InputSystem;
 
 public class PointSensor : MonoBehaviour
 {
-    public Camera mainCamera;
+    public GameObject mousePosGO;
     public BoxCollider2D bc;
     public bool hovered;
 
     private void Update()
     {
-        Vector2 mouseWorldPos = mainCamera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 
-        if (bc.OverlapPoint(mouseWorldPos))
+        if (bc.OverlapPoint(mousePosGO.transform.position))
         {
             hovered = true;
         }
