@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 
 public class GardenPlot : MonoBehaviour
 {
+    public SpriteRenderer highlightedSr;
+    public SpriteRenderer sr;
+
     public Sprite covered;
     public Sprite normal;
     public Sprite dry1;
@@ -26,6 +29,15 @@ public class GardenPlot : MonoBehaviour
         if (hovered && clickAction.WasPressedThisFrame())
         {
             Debug.Log(name + " was clicked");
+        }
+
+        if (hovered)
+        {
+            highlightedSr.enabled = true;
+        }
+        else
+        {
+            highlightedSr.enabled = false;
         }
     }
 
