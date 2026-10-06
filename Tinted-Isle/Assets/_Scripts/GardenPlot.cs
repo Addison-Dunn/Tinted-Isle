@@ -47,24 +47,39 @@ public class GardenPlot : MonoBehaviour
 
     void OnClick()
     {
-
-    }
-    void OnClickRelease()
-    {
         if (hovered && ps.mousePosGO.transform.childCount != 0)
         {
             ItemSeed mouseItem = ps.mousePosGO.GetComponentInChildren<ItemSeed>();
 
             if (gameObject.transform.childCount == 1)
             {
-                mouseItem.SendToContainer(this.gameObject);
-                mouseItem.GetPlanted();
+                if(mouseItem.count == 1)
+                {
+                    mouseItem.SendToContainer(this.gameObject);
+                    mouseItem.GetPlanted();
+                }
+                else
+                {
+                    mouseItem.count--;
+                    mouseItem.UpdateCountText();
+
+                    ItemSeed dropItem = Instantiate(mouseItem);
+                    dropItem.count = 1;
+                    dropItem.UpdateCountText();
+                    dropItem.SendToContainer(this.gameObject);
+                    dropItem.GetPlanted();
+                }
+
             }
             else
             {
                 mouseItem.SendToContainer(mouseItem.lastContainer);
             }
         }
+    }
+    void OnClickRelease()
+    {
+        
     }
 
 }

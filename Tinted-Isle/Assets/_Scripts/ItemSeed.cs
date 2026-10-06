@@ -1,8 +1,19 @@
+using TMPro;
 using UnityEngine;
+
+public enum eFlower { red, green };
+
 
 public class ItemSeed : MonoBehaviour
 {
-    public GameObject lastContainer;
+    [Header("Count text")]
+    public TextMeshPro countText;
+    public int maxCount;
+    public int count;
+
+    [HideInInspector]public GameObject lastContainer;
+
+    [Header("Sprites")]
 
     public SpriteRenderer sr;
 
@@ -13,9 +24,13 @@ public class ItemSeed : MonoBehaviour
 
     bool planted;
 
-    private void Awake()
+    [Header("FlowerType")]
+    public eFlower flowerType;
+
+    private void Start()
     {
         lastContainer = transform.parent.gameObject;
+        UpdateCountText();
     }
 
     public void SendToContainer(GameObject targetContainer)
@@ -31,6 +46,18 @@ public class ItemSeed : MonoBehaviour
     {
         sr.sprite = growth1;
         planted = true;
+    }
+
+    public void UpdateCountText()
+    {
+        if(count > 1)
+        {
+            countText.text = "" + count;
+        }
+        else
+        {
+            countText.text = "";
+        }
     }
 
 }
