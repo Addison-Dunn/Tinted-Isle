@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public enum eFlower { red, green };
+public enum eFlower { red, green, yellow };
 
 
 public class ItemSeed : MonoBehaviour

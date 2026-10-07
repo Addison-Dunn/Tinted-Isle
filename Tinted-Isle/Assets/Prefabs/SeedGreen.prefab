@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemSeed
   countText: {fileID: 2511833292138780059}
-  maxCount: 10
+  maxCount: 64
   count: 1
   lastContainer: {fileID: 0}
   sr: {fileID: 1023083600482038835}

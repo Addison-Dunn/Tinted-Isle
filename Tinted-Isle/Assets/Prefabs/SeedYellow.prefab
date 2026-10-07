@@ -195,7 +195,7 @@ GameObject:
   - component: {fileID: 1023083600482038835}
   - component: {fileID: 2489456507327137840}
   m_Layer: 0
-  m_Name: SeedRed
+  m_Name: SeedYellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -209,7 +209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4628318574684927228}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4, y: 0, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -266,7 +266,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -450468873618539306, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
+  m_Sprite: {fileID: 5998599593293845750, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -293,8 +293,8 @@ MonoBehaviour:
   count: 1
   lastContainer: {fileID: 0}
   sr: {fileID: 1023083600482038835}
-  growth1: {fileID: -4252428640532418281, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
-  growth2: {fileID: 631786033512094740, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
-  growth3: {fileID: -8561270862591999727, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
-  growth4: {fileID: -9198171579898286060, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
-  flowerType: 0
+  growth1: {fileID: 7980957403711766597, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
+  growth2: {fileID: 2258111671742885137, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
+  growth3: {fileID: 2638920291135914092, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
+  growth4: {fileID: -7721499544280727656, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
+  flowerType: 2
