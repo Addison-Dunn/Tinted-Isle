@@ -13,6 +13,10 @@ public class GardenPlot : MonoBehaviour
     public Sprite wet1;
     public Sprite wet2;
 
+    public float growth;
+    public float dryness;
+    public float wetness;
+
     private InputAction clickAction;
 
     private PointSensor ps;
@@ -21,10 +25,15 @@ public class GardenPlot : MonoBehaviour
 
     public ButtonInventory bi;
 
+    private GameManager gm;
+
     public bool hovered => ps.hovered;
 
     private void Awake()
     {
+        gm = Object.FindAnyObjectByType<GameManager>();
+        gm.updateGrowth.AddListener(GrowthTickUpdate);
+
         clickAction = InputSystem.actions.FindAction("Click");
         ps = GetComponent<PointSensor>();
 
@@ -58,25 +67,19 @@ public class GardenPlot : MonoBehaviour
             {
                 ItemSeed mouseItem = ps.mousePosGO.GetComponentInChildren<ItemSeed>();
 
+
                 if (gameObject.transform.childCount == 1)
                 {
-                    if (mouseItem.count == 1)
-                    {
-                        mouseItem.SendToContainer(this.gameObject);
-                        mouseItem.GetPlanted();
-                    }
-                    else
-                    {
-                        mouseItem.count--;
-                        mouseItem.UpdateCountText();
+                    GameObject dropFlower = Instantiate(mouseItem.flowerPlanted);
+                    FlowerPlanted fp = dropFlower.GetComponent<FlowerPlanted>();
+                    fp.SendToGardenPlot(gameObject);
+                    mouseItem.count--;
+                    mouseItem.UpdateCountText();
 
-                        ItemSeed dropItem = Instantiate(mouseItem);
-                        dropItem.count = 1;
-                        dropItem.UpdateCountText();
-                        dropItem.SendToContainer(this.gameObject);
-                        dropItem.GetPlanted();
+                    if (mouseItem.count == 0)
+                    {
+                        Destroy(mouseItem.gameObject);
                     }
-
                 }
                 else
                 {
@@ -88,6 +91,16 @@ public class GardenPlot : MonoBehaviour
     void OnClickRelease()
     {
         
+    }
+
+    void GrowthTickUpdate()
+    {
+        if(transform.childCount > 1)
+        {
+            FlowerPlanted fp = GetComponentInChildren<FlowerPlanted>();
+            int randomNum = Random.Range(0, 2);
+            fp.progressGrowth(randomNum);
+        }
     }
 
 }

@@ -295,8 +295,5 @@ MonoBehaviour:
   count: 1
   lastContainer: {fileID: 0}
   sr: {fileID: 1023083600482038835}
-  growth1: {fileID: 7980957403711766597, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
-  growth2: {fileID: 2258111671742885137, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
-  growth3: {fileID: 2638920291135914092, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
-  growth4: {fileID: -7721499544280727656, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
   flowerType: 2
+  flowerPlanted: {fileID: 2319650884898053496, guid: 90a8d79cc66036046a838f8411a023ff, type: 3}

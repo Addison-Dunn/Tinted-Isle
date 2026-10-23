@@ -20,15 +20,11 @@ public class ItemSeed : MonoBehaviour
 
     public SpriteRenderer sr;
 
-    public Sprite growth1;
-    public Sprite growth2;
-    public Sprite growth3;
-    public Sprite growth4;
-
-    bool planted;
-
     [Header("FlowerType")]
     public eFlower flowerType;
+
+    [Header("Seperate prefab for the planted flower")]
+    public GameObject flowerPlanted;
 
     private void Start()
     {
@@ -63,8 +59,7 @@ public class ItemSeed : MonoBehaviour
 
     public void GetPlanted()
     {
-        sr.sprite = growth1;
-        planted = true;
+
     }
 
     public void UpdateCountText()
@@ -76,6 +71,14 @@ public class ItemSeed : MonoBehaviour
         else
         {
             countText.text = "";
+        }
+    }
+
+    public void Grow(int amount)
+    {
+        if (amount > 0)
+        {
+
         }
     }
 
