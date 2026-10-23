@@ -19,6 +19,8 @@ public class GardenPlot : MonoBehaviour
 
     private PointAndClick pnc;
 
+    public ButtonInventory bi;
+
     public bool hovered => ps.hovered;
 
     private void Awake()
@@ -35,45 +37,51 @@ public class GardenPlot : MonoBehaviour
 
     private void Update()
     {
-        if (hovered)
+        if (!bi.open)
         {
-            highlightedSr.enabled = true;
-        }
-        else
-        {
-            highlightedSr.enabled = false;
+            if (hovered)
+            {
+                highlightedSr.enabled = true;
+            }
+            else
+            {
+                highlightedSr.enabled = false;
+            }
         }
     }
 
     void OnClick()
     {
-        if (hovered && ps.mousePosGO.transform.childCount != 0)
+        if (!bi.open)
         {
-            ItemSeed mouseItem = ps.mousePosGO.GetComponentInChildren<ItemSeed>();
-
-            if (gameObject.transform.childCount == 1)
+            if (hovered && ps.mousePosGO.transform.childCount != 0)
             {
-                if(mouseItem.count == 1)
+                ItemSeed mouseItem = ps.mousePosGO.GetComponentInChildren<ItemSeed>();
+
+                if (gameObject.transform.childCount == 1)
                 {
-                    mouseItem.SendToContainer(this.gameObject);
-                    mouseItem.GetPlanted();
+                    if (mouseItem.count == 1)
+                    {
+                        mouseItem.SendToContainer(this.gameObject);
+                        mouseItem.GetPlanted();
+                    }
+                    else
+                    {
+                        mouseItem.count--;
+                        mouseItem.UpdateCountText();
+
+                        ItemSeed dropItem = Instantiate(mouseItem);
+                        dropItem.count = 1;
+                        dropItem.UpdateCountText();
+                        dropItem.SendToContainer(this.gameObject);
+                        dropItem.GetPlanted();
+                    }
+
                 }
                 else
                 {
-                    mouseItem.count--;
-                    mouseItem.UpdateCountText();
-
-                    ItemSeed dropItem = Instantiate(mouseItem);
-                    dropItem.count = 1;
-                    dropItem.UpdateCountText();
-                    dropItem.SendToContainer(this.gameObject);
-                    dropItem.GetPlanted();
+                    mouseItem.SendToContainer(mouseItem.lastContainer);
                 }
-
-            }
-            else
-            {
-                mouseItem.SendToContainer(mouseItem.lastContainer);
             }
         }
     }

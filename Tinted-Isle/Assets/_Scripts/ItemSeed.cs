@@ -7,6 +7,9 @@ public enum eFlower { red, green, yellow };
 public class ItemSeed : MonoBehaviour
 {
     [Header("Count text")]
+    public TMP_FontAsset unMaskedFont;
+    public TMP_FontAsset maskedFont;
+
     public TextMeshPro countText;
     public int maxCount;
     public int count;
@@ -37,9 +40,25 @@ public class ItemSeed : MonoBehaviour
     {
         transform.parent = targetContainer.transform;
         transform.localPosition = Vector2.zero;
-        Vector3 itemPos = transform.position;
-        itemPos.z = -3;
-        transform.position = itemPos;
+        Vector3 itemPos = transform.localPosition;
+        itemPos.z = -0.1f;
+        transform.localPosition = itemPos;
+
+        HotbarSlot hs = targetContainer.GetComponent<HotbarSlot>();
+        if(hs != null)
+        {
+            if (hs.inventorySlot)
+            {
+                sr.maskInteraction = SpriteMaskInteraction.VisibleInsideMask;
+                countText.font = maskedFont;
+            }
+            else
+            {
+                sr.maskInteraction = SpriteMaskInteraction.None;
+                countText.font = unMaskedFont;
+
+            }
+        }
     }
 
     public void GetPlanted()

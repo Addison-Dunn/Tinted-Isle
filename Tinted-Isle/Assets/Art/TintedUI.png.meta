@@ -1,0 +1,402 @@
+fileFormatVersion: 2
+guid: 3bb3e67610eec4d4090092b73e4554e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2461884692775882888
+    second: TintedUI_0
+  - first:
+      213: 5932060992665270846
+    second: TintedUI_1
+  - first:
+      213: 4913252880613964085
+    second: TintedUI_2
+  - first:
+      213: -1134417592260550585
+    second: TintedUI_3
+  - first:
+      213: -3790470667141627223
+    second: TintedUI_4
+  - first:
+      213: -7017823988257350510
+    second: TintedUI_5
+  - first:
+      213: 6979970891352401046
+    second: TintedUI_6
+  - first:
+      213: -7375212174398291208
+    second: TintedUI_7
+  - first:
+      213: 2211909089996162263
+    second: TintedUI_8
+  - first:
+      213: -1807812984779154205
+    second: TintedUI_9
+  - first:
+      213: 7929354529670147943
+    second: TintedUI_10
+  - first:
+      213: -3862213006328211684
+    second: TintedUI_11
+  - first:
+      213: 4196846567297839527
+    second: TintedUI_12
+  - first:
+      213: 8762697895038842408
+    second: TintedUI_13
+  - first:
+      213: -8689498237723524098
+    second: TintedUI_14
+  - first:
+      213: -3665721199425696820
+    second: TintedUI_15
+  - first:
+      213: 7834063213888863805
+    second: TintedUI_16
+  - first:
+      213: 5660664995903880414
+    second: TintedUI_17
+  - first:
+      213: -6143024269210472511
+    second: TintedUI_18
+  - first:
+      213: 4318686394917401669
+    second: TintedUI_19
+  - first:
+      213: 7807917535854452607
+    second: TintedUI_20
+  - first:
+      213: -4495270008210476698
+    second: TintedUI_21
+  - first:
+      213: 4432947363657732747
+    second: TintedUI_22
+  - first:
+      213: 6683443295025394321
+    second: TintedUI_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TintedUI_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 237
+        width: 178
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880d0ee951f5a2220800000000000000
+      internalID: 2461884692775882888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedUI_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 219
+        width: 178
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ab3cd1b0ae25250800000000000000
+      internalID: 5932060992665270846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedUI_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 178
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a24c71d20b856bc0800000000000000
+      internalID: -3790470667141627223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedUI_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 164
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f28ad95a9bf5a990800000000000000
+      internalID: -7375212174398291208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedUI_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 13
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fd52871ab4b5c60800000000000000
+      internalID: 7807917535854452607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedUI_21
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 10
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661b5279eb79d91c0800000000000000
+      internalID: -4495270008210476698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedUI_22
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 14
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82d2d6f32ef48d30800000000000000
+      internalID: 4432947363657732747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TintedUI_23
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 11
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1927474344c50cc50800000000000000
+      internalID: 6683443295025394321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1e2aca36fce364f498077d5f27c21ad9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TintedUI_0: 2461884692775882888
+      TintedUI_1: 5932060992665270846
+      TintedUI_10: 7929354529670147943
+      TintedUI_11: -3862213006328211684
+      TintedUI_12: 4196846567297839527
+      TintedUI_13: 8762697895038842408
+      TintedUI_14: -8689498237723524098
+      TintedUI_15: -3665721199425696820
+      TintedUI_16: 7834063213888863805
+      TintedUI_17: 5660664995903880414
+      TintedUI_18: -6143024269210472511
+      TintedUI_19: 4318686394917401669
+      TintedUI_2: 4913252880613964085
+      TintedUI_20: 7807917535854452607
+      TintedUI_21: -4495270008210476698
+      TintedUI_22: 4432947363657732747
+      TintedUI_23: 6683443295025394321
+      TintedUI_3: -1134417592260550585
+      TintedUI_4: -3790470667141627223
+      TintedUI_5: -7017823988257350510
+      TintedUI_6: 6979970891352401046
+      TintedUI_7: -7375212174398291208
+      TintedUI_8: 2211909089996162263
+      TintedUI_9: -1807812984779154205
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
