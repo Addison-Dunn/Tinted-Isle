@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class FlowerPlanted : MonoBehaviour
@@ -11,6 +12,10 @@ public class FlowerPlanted : MonoBehaviour
     private SpriteRenderer sr;
     public int currentGrowth;
 
+    [Header("Grow Effect")]
+    public float growEffectTime;
+    public AnimationCurve growEffectEasing;
+
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -18,7 +23,13 @@ public class FlowerPlanted : MonoBehaviour
 
     public void progressGrowth(int amount)
     {
+        int lastGrowth = currentGrowth;
         currentGrowth = Mathf.Clamp(amount + currentGrowth, 1, 4);
+
+        if (currentGrowth > lastGrowth)
+        {
+            StartCoroutine(GrowEffect());
+        }
         UpdateGrowth();
         
     }
@@ -50,4 +61,19 @@ public class FlowerPlanted : MonoBehaviour
         transform.localPosition = itemPos;
     }
 
+    public IEnumerator GrowEffect()
+    {
+        Vector3 scale = new Vector3(1.5f, 1.5f, 1.5f);
+        float elapsed = 0;
+        while (elapsed < growEffectTime)
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / growEffectTime;
+            t = growEffectEasing.Evaluate(t);
+            transform.localScale = new Vector3(t, t, t);
+            //transform.localScale = Vector3.Lerp(scale, new Vector3(1, 1, 1), t);
+            yield return null;
+        }
+
+    }
 }

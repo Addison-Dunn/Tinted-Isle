@@ -108,3 +108,38 @@ MonoBehaviour:
   growth2: {fileID: 5987199001427247722, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
   growth3: {fileID: -8788648779033318295, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
   growth4: {fileID: 4305090391987615540, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
+  currentGrowth: 0
+  growEffectTime: 0.5
+  growEffectEasing:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0.4466262
+      outSlope: 0.4466262
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.12476605
+    - serializedVersion: 3
+      time: 0.14225996
+      value: 1.2057552
+      inSlope: 0.01440279
+      outSlope: 0.01440279
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.14342973
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.4971407
+      outSlope: 0.4971407
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.038630165
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
