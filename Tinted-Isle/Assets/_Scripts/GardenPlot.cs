@@ -32,7 +32,7 @@ public class GardenPlot : MonoBehaviour
     private void Awake()
     {
         gm = Object.FindAnyObjectByType<GameManager>();
-        gm.updateGrowth.AddListener(GrowthTickUpdate);
+        gm.updateGrowth.AddListener(UpdateContainedFlowerGrowth);
 
         clickAction = InputSystem.actions.FindAction("Click");
         ps = GetComponent<PointSensor>();
@@ -93,13 +93,13 @@ public class GardenPlot : MonoBehaviour
         
     }
 
-    void GrowthTickUpdate()
+    void UpdateContainedFlowerGrowth()
     {
         if(transform.childCount > 1)
         {
             FlowerPlanted fp = GetComponentInChildren<FlowerPlanted>();
-            int randomNum = Random.Range(0, 2);
-            fp.progressGrowth(randomNum);
+            int randomNum = Random.Range(1, 2);
+            fp.InitializeGrowth(randomNum);
         }
     }
 

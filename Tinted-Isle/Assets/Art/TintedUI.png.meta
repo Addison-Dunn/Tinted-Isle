@@ -190,7 +190,7 @@ TextureImporter:
         width: 178
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -212,7 +212,7 @@ TextureImporter:
         width: 178
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,13 +314,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedUI_22
+      name: ClockPointer
       rect:
         serializedVersion: 2
-        x: 76
+        x: 88
         y: 14
-        width: 21
-        height: 15
+        width: 8
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,6 +357,72 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: ClockBase
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 222
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9e5bb1fe803324988f654e68f3a33f
+      internalID: 2016314902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockEdges
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 186
+        width: 74
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c540b74db32114a833f655eff31faa
+      internalID: -967985708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClockPointerTail
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 15
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d84e4eda92734140afbe5243cce7946
+      internalID: -843250863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -371,6 +437,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      ClockBase: 2016314902
+      ClockEdges: -967985708
+      ClockPointer: 4432947363657732747
+      ClockPointerTail: -843250863
       TintedUI_0: 2461884692775882888
       TintedUI_1: 5932060992665270846
       TintedUI_10: 7929354529670147943
@@ -383,10 +453,8 @@ TextureImporter:
       TintedUI_17: 5660664995903880414
       TintedUI_18: -6143024269210472511
       TintedUI_19: 4318686394917401669
-      TintedUI_2: 4913252880613964085
       TintedUI_20: 7807917535854452607
       TintedUI_21: -4495270008210476698
-      TintedUI_22: 4432947363657732747
       TintedUI_23: 6683443295025394321
       TintedUI_3: -1134417592260550585
       TintedUI_4: -3790470667141627223

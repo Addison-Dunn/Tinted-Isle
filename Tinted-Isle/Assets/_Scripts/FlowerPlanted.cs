@@ -1,5 +1,7 @@
 using System.Collections;
+using UnityEditor.Rendering;
 using UnityEngine;
+using UnityEngine.UIElements.Experimental;
 
 public class FlowerPlanted : MonoBehaviour
 {
@@ -10,28 +12,54 @@ public class FlowerPlanted : MonoBehaviour
     public Sprite growth4;
 
     private SpriteRenderer sr;
-    public int currentGrowth;
+
 
     [Header("Grow Effect")]
     public float growEffectTime;
     public AnimationCurve growEffectEasing;
+    public AnimationCurve growShakeEasing;
+    public float growShakeMag;
+    public float growShakeDur;
+
+    [Header("Growth Functionality")]
+    public float timeUntilNextGrowth;
+    public int remainingGrowth;
+    public int currentGrowth;
+    public int targetGrowth;
 
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
     }
 
-    public void progressGrowth(int amount)
+    public void InitializeGrowth(int amount)
     {
-        int lastGrowth = currentGrowth;
-        currentGrowth = Mathf.Clamp(amount + currentGrowth, 1, 4);
+        targetGrowth = currentGrowth + amount;
+        remainingGrowth = targetGrowth - currentGrowth;
+        GameManager gm = GameManager.Instance;
+        timeUntilNextGrowth = Random.Range(gm.elapsedTime,gm.elapsedTime + (gm.dayLength - gm.elapsedTime)/remainingGrowth);
+    }
 
-        if (currentGrowth > lastGrowth)
-        {
-            StartCoroutine(GrowEffect());
-        }
+    public void Grow(int amount)
+    {
+        currentGrowth = Mathf.Clamp(currentGrowth + amount, 1, 4);
+        if(amount > 0) StartCoroutine(GrowEffect());
         UpdateGrowth();
-        
+    }
+
+    private void Update()
+    {
+        if(remainingGrowth > 0)
+        {
+            timeUntilNextGrowth -= Time.deltaTime;
+            if(timeUntilNextGrowth <= 0)
+            {
+                remainingGrowth--;
+                Grow(1);
+                GameManager gm = GameManager.Instance;
+                timeUntilNextGrowth = Random.Range(gm.elapsedTime, gm.elapsedTime + (gm.dayLength - gm.elapsedTime) / remainingGrowth);
+            }
+        }
     }
 
     void UpdateGrowth()
@@ -59,6 +87,9 @@ public class FlowerPlanted : MonoBehaviour
         Vector3 itemPos = transform.localPosition;
         itemPos.z = -0.1f;
         transform.localPosition = itemPos;
+        currentGrowth = 1;
+        StartCoroutine(Shake(growShakeDur, growShakeMag));
+        StartCoroutine(GrowEffect());
     }
 
     public IEnumerator GrowEffect()
@@ -75,5 +106,27 @@ public class FlowerPlanted : MonoBehaviour
             yield return null;
         }
 
+    }
+
+    public IEnumerator Shake(float duration, float magnitude)
+    {
+        float elapsed = 0;
+        Vector3 originalLocalPos = transform.localPosition;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / duration;
+
+            Vector2 randomOffset = Random.insideUnitCircle * (magnitude * growShakeEasing.Evaluate(t));
+
+            Vector3 randomPos = new Vector3(randomOffset.x + originalLocalPos.x, randomOffset.y + originalLocalPos.y, originalLocalPos.z);
+            transform.localPosition = randomPos;
+
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.localPosition = originalLocalPos;
     }
 }
