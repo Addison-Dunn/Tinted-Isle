@@ -18,6 +18,9 @@ public class FlowerPlanted : MonoBehaviour
     public float growEffectTime;
     public AnimationCurve growEffectEasing;
     public AnimationCurve growShakeEasing;
+    public AnimationCurve regressEffectEasing;
+
+
     public float growShakeMag;
     public float growShakeDur;
 
@@ -26,6 +29,12 @@ public class FlowerPlanted : MonoBehaviour
     public int remainingGrowth;
     public int currentGrowth;
     public int targetGrowth;
+
+    [Header("Growth attributes")]
+    public float maxGrowthChance = 2;
+    public float minGrowthChance = -1;
+    public float dryMult = 1;
+    public float wetMult = 1;
 
     private void Awake()
     {
@@ -37,27 +46,29 @@ public class FlowerPlanted : MonoBehaviour
         targetGrowth = currentGrowth + amount;
         remainingGrowth = targetGrowth - currentGrowth;
         GameManager gm = GameManager.Instance;
-        timeUntilNextGrowth = Random.Range(gm.elapsedTime,gm.elapsedTime + (gm.dayLength - gm.elapsedTime)/remainingGrowth);
+        timeUntilNextGrowth = Random.Range(gm.elapsedTime,gm.elapsedTime + (gm.dayLength - gm.elapsedTime)/ Mathf.Abs(remainingGrowth));
     }
 
     public void Grow(int amount)
     {
         currentGrowth = Mathf.Clamp(currentGrowth + amount, 1, 4);
         if(amount > 0) StartCoroutine(GrowEffect());
+        if(amount<0) StartCoroutine(RegressEffect());
         UpdateGrowth();
     }
 
     private void Update()
     {
-        if(remainingGrowth > 0)
+        if(remainingGrowth != 0)
         {
             timeUntilNextGrowth -= Time.deltaTime;
+            int growDir = remainingGrowth > 0 ? 1: -1;
             if(timeUntilNextGrowth <= 0)
             {
-                remainingGrowth--;
-                Grow(1);
+                remainingGrowth += growDir;
+                Grow(growDir);
                 GameManager gm = GameManager.Instance;
-                timeUntilNextGrowth = Random.Range(gm.elapsedTime, gm.elapsedTime + (gm.dayLength - gm.elapsedTime) / remainingGrowth);
+                timeUntilNextGrowth = Random.Range(gm.elapsedTime, gm.elapsedTime + (gm.dayLength - gm.elapsedTime) / Mathf.Abs(remainingGrowth));
             }
         }
     }
@@ -101,6 +112,22 @@ public class FlowerPlanted : MonoBehaviour
             elapsed += Time.deltaTime;
             float t = elapsed / growEffectTime;
             t = growEffectEasing.Evaluate(t);
+            transform.localScale = new Vector3(t, t, t);
+            //transform.localScale = Vector3.Lerp(scale, new Vector3(1, 1, 1), t);
+            yield return null;
+        }
+
+    }
+
+    public IEnumerator RegressEffect()
+    {
+        Vector3 scale = new Vector3(1.5f, 1.5f, 1.5f);
+        float elapsed = 0;
+        while (elapsed < growEffectTime)
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / growEffectTime;
+            t = regressEffectEasing.Evaluate(t);
             transform.localScale = new Vector3(t, t, t);
             //transform.localScale = Vector3.Lerp(scale, new Vector3(1, 1, 1), t);
             yield return null;

@@ -108,7 +108,6 @@ MonoBehaviour:
   growth2: {fileID: 2258111671742885137, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
   growth3: {fileID: 2638920291135914092, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
   growth4: {fileID: -7721499544280727656, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
-  currentGrowth: 0
   growEffectTime: 0.4
   growEffectEasing:
     serializedVersion: 2
@@ -167,5 +166,55 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  regressEffectEasing:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0.04032813
+      outSlope: 0.04032813
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.31295738
+    - serializedVersion: 3
+      time: 0.123924986
+      value: 0.751845
+      inSlope: -0.018881695
+      outSlope: -0.018881695
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5842877
+      value: 0.99528277
+      inSlope: 1.4465986
+      outSlope: 1.4465986
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.22517386
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.019487998
+      outSlope: 0.019487998
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.54111725
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   growShakeMag: 0.2
   growShakeDur: 0.25
+  timeUntilNextGrowth: 0
+  remainingGrowth: 0
+  currentGrowth: 0
+  targetGrowth: 0
+  maxGrowthChance: 2
+  minGrowthChance: -1
+  dryMult: 1
+  wetMult: 1

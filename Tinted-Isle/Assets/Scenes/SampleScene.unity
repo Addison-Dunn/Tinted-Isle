@@ -248,6 +248,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -541,6 +545,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -615,6 +623,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -835,6 +847,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -904,6 +920,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -973,6 +993,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -1057,7 +1081,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   startDayOnAwake: 1
-  dayLength: 5
+  dayLength: 2
   Garden: {fileID: 1234617703}
   clockPointer: {fileID: 1715994798}
   pointerStartPos: {x: -1.312494, y: -0.4999981}
@@ -1120,6 +1144,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -1189,6 +1217,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -1258,6 +1290,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -1337,6 +1373,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -1479,6 +1519,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -1553,6 +1597,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -1964,6 +2012,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -2111,6 +2163,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -2253,6 +2309,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -2342,6 +2402,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -2552,6 +2616,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -2631,6 +2699,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -3232,6 +3304,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -3663,6 +3739,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -3820,6 +3900,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -3967,6 +4051,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -4124,6 +4212,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -4208,6 +4300,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -4545,6 +4641,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -4678,6 +4778,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -4820,6 +4924,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -5040,6 +5148,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -5320,6 +5432,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -5545,6 +5661,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -5760,6 +5880,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -6094,6 +6218,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -6432,6 +6560,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -6695,6 +6827,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -6849,6 +6985,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -6991,6 +7131,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -7070,6 +7214,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -7222,6 +7370,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -7291,6 +7443,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -7709,6 +7865,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -7980,6 +8140,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -8195,6 +8359,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -8770,6 +8938,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -8844,6 +9016,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -9001,6 +9177,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -9070,6 +9250,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -9462,6 +9646,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -9619,6 +9807,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 
@@ -9980,6 +10172,10 @@ PrefabInstance:
       propertyPath: bi
       value: 
       objectReference: {fileID: 1725336308}
+    - target: {fileID: 5457445895486298272, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
+      propertyPath: growth
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 6421965352468120563, guid: d5e26dc701482ae44a5aa2bba8a8238e, type: 3}
       propertyPath: mainCamera
       value: 

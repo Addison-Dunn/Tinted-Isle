@@ -98,8 +98,37 @@ public class GardenPlot : MonoBehaviour
         if(transform.childCount > 1)
         {
             FlowerPlanted fp = GetComponentInChildren<FlowerPlanted>();
-            int randomNum = Random.Range(1, 2);
-            fp.InitializeGrowth(randomNum);
+            int plantGrowthDelta = 0;
+
+            #region determine how to clamp growth based on the contained plant's attributes
+            float clampedGrowth = 0;
+            clampedGrowth = Mathf.Clamp(growth, fp.minGrowthChance, fp.maxGrowthChance);
+
+            #endregion
+
+            #region determine how much the containd plant will grow
+            if (clampedGrowth < 0)
+            {
+                plantGrowthDelta = Random.value <= 0.5f ? -1 : 0;
+            }
+            else if (clampedGrowth < 0.5f)
+            {
+                plantGrowthDelta = 0;
+            }
+            else if (clampedGrowth < 1)
+            {
+                plantGrowthDelta = Random.value <= 0.5f ? 1 : 0;
+            }
+            else if (clampedGrowth < 2)
+            {
+                plantGrowthDelta = Random.value <= 0.5f ? 2 : 1;
+            }
+            else if (clampedGrowth == 2)
+            {
+                plantGrowthDelta = 2;
+            }
+            fp.InitializeGrowth(plantGrowthDelta);
+            #endregion
         }
     }
 
