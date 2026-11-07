@@ -833,7 +833,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TintedIslePlantSheet_0
+      name: SeedRed
       rect:
         serializedVersion: 2
         x: 4
@@ -855,7 +855,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_1
+      name: SeedOrange
       rect:
         serializedVersion: 2
         x: 20
@@ -877,7 +877,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_2
+      name: SeedYellow
       rect:
         serializedVersion: 2
         x: 36
@@ -899,7 +899,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_3
+      name: SeedGreen
       rect:
         serializedVersion: 2
         x: 52
@@ -921,7 +921,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_4
+      name: SeedBlue
       rect:
         serializedVersion: 2
         x: 68
@@ -1581,7 +1581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_34
+      name: SeedIndigo
       rect:
         serializedVersion: 2
         x: 4
@@ -1603,7 +1603,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_35
+      name: SeedPurple
       rect:
         serializedVersion: 2
         x: 20
@@ -1625,7 +1625,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_36
+      name: SeedPink
       rect:
         serializedVersion: 2
         x: 36
@@ -1647,7 +1647,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_37
+      name: SeedBrown
       rect:
         serializedVersion: 2
         x: 52
@@ -1669,7 +1669,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_38
+      name: SeedEclipse
       rect:
         serializedVersion: 2
         x: 68
@@ -2285,7 +2285,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_66
+      name: Blue1
       rect:
         serializedVersion: 2
         x: 69
@@ -2329,7 +2329,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_68
+      name: Purple1
       rect:
         serializedVersion: 2
         x: 101
@@ -2351,7 +2351,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_69
+      name: Pink1
       rect:
         serializedVersion: 2
         x: 117
@@ -2373,7 +2373,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_70
+      name: Brown1
       rect:
         serializedVersion: 2
         x: 133
@@ -3077,7 +3077,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_102
+      name: Blue2
       rect:
         serializedVersion: 2
         x: 85
@@ -3099,7 +3099,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_103
+      name: Purple2
       rect:
         serializedVersion: 2
         x: 101
@@ -3121,7 +3121,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_104
+      name: Pink2
       rect:
         serializedVersion: 2
         x: 117
@@ -3143,7 +3143,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_105
+      name: Brown2
       rect:
         serializedVersion: 2
         x: 133
@@ -3781,7 +3781,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_134
+      name: Blue3
       rect:
         serializedVersion: 2
         x: 83
@@ -3803,7 +3803,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_135
+      name: Purple3
       rect:
         serializedVersion: 2
         x: 99
@@ -3825,7 +3825,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_136
+      name: Pink3
       rect:
         serializedVersion: 2
         x: 115
@@ -3847,7 +3847,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_137
+      name: Brown3
       rect:
         serializedVersion: 2
         x: 131
@@ -4485,7 +4485,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_166
+      name: Blue4
       rect:
         serializedVersion: 2
         x: 83
@@ -4507,7 +4507,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_167
+      name: Purple4
       rect:
         serializedVersion: 2
         x: 99
@@ -4529,7 +4529,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_168
+      name: Pink4
       rect:
         serializedVersion: 2
         x: 115
@@ -4551,7 +4551,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TintedIslePlantSheet_169
+      name: Brown4
       rect:
         serializedVersion: 2
         x: 131
@@ -6148,6 +6148,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Blue1: -5921752634162897942
+      Blue2: -5891686414182994211
+      Blue3: -2577371990430035549
+      Blue4: -7184407007961102837
+      Brown1: 2025368533682137558
+      Brown2: -5356040099740680862
+      Brown3: 3599641889010147963
+      Brown4: 1396101765006646949
       Green1: -3444520378966938331
       Green2: 2524102033711708762
       Green3: 6851646432024030172
@@ -6156,18 +6164,30 @@ TextureImporter:
       Orange2: 3921348027233671552
       Orange3: 3087931288242352081
       Orange4: -6254140609256255877
+      Pink1: 8734063187257864629
+      Pink2: 471691320131810275
+      Pink3: 3615732196156078807
+      Pink4: 6322110252597190970
+      Purple1: 3416610016208939484
+      Purple2: 5044587820172298869
+      Purple3: -1951762935676277869
+      Purple4: 5127683685598929269
       Red1: -5591110471779827135
       Red2: 5987199001427247722
       Red3: -8788648779033318295
       Red4: 4305090391987615540
-      TintedIslePlantSheet_0: -450468873618539306
-      TintedIslePlantSheet_1: -7534220847001853099
+      SeedBlue: 1019555463973002132
+      SeedBrown: -3935683286329553771
+      SeedEclipse: 8353504351198290951
+      SeedGreen: 5563653684521571191
+      SeedIndigo: 6989794728732511099
+      SeedOrange: -7534220847001853099
+      SeedPink: -801871584818109646
+      SeedPurple: 1224407601824374507
+      SeedRed: -450468873618539306
+      SeedYellow: 5998599593293845750
       TintedIslePlantSheet_10: 617226249199165575
       TintedIslePlantSheet_101: 6083849199919967697
-      TintedIslePlantSheet_102: -5891686414182994211
-      TintedIslePlantSheet_103: 5044587820172298869
-      TintedIslePlantSheet_104: 471691320131810275
-      TintedIslePlantSheet_105: -5356040099740680862
       TintedIslePlantSheet_106: 3443892231426451659
       TintedIslePlantSheet_107: 3738499948712068938
       TintedIslePlantSheet_108: -759279307510552648
@@ -6195,10 +6215,6 @@ TextureImporter:
       TintedIslePlantSheet_128: -2865807465386211421
       TintedIslePlantSheet_13: 3897173723737707037
       TintedIslePlantSheet_133: -3814311947607513579
-      TintedIslePlantSheet_134: -2577371990430035549
-      TintedIslePlantSheet_135: -1951762935676277869
-      TintedIslePlantSheet_136: 3615732196156078807
-      TintedIslePlantSheet_137: 3599641889010147963
       TintedIslePlantSheet_138: -3099649104176594740
       TintedIslePlantSheet_139: -7287527524525888430
       TintedIslePlantSheet_14: -1069688574716119814
@@ -6226,10 +6242,6 @@ TextureImporter:
       TintedIslePlantSheet_16: 5314845413642362677
       TintedIslePlantSheet_160: 451825751969433472
       TintedIslePlantSheet_165: -2685889447237043589
-      TintedIslePlantSheet_166: -7184407007961102837
-      TintedIslePlantSheet_167: 5127683685598929269
-      TintedIslePlantSheet_168: 6322110252597190970
-      TintedIslePlantSheet_169: 1396101765006646949
       TintedIslePlantSheet_17: 3972423133090311060
       TintedIslePlantSheet_170: 590857246959373860
       TintedIslePlantSheet_171: 1145087827893610101
@@ -6263,7 +6275,6 @@ TextureImporter:
       TintedIslePlantSheet_197: -4894084321862143206
       TintedIslePlantSheet_198: 4845031511153012349
       TintedIslePlantSheet_199: -4259461129041559839
-      TintedIslePlantSheet_2: 5998599593293845750
       TintedIslePlantSheet_20: -7872552301573193406
       TintedIslePlantSheet_200: 1299864386064847616
       TintedIslePlantSheet_201: -542941794717717919
@@ -6315,18 +6326,11 @@ TextureImporter:
       TintedIslePlantSheet_27: -1992619142881715756
       TintedIslePlantSheet_28: -2024123056348915355
       TintedIslePlantSheet_29: -5417690088049087879
-      TintedIslePlantSheet_3: 5563653684521571191
       TintedIslePlantSheet_30: -1112534823516864200
       TintedIslePlantSheet_31: -4277622681010957624
       TintedIslePlantSheet_32: 6680686704177657152
       TintedIslePlantSheet_33: 4250225888132990593
-      TintedIslePlantSheet_34: 6989794728732511099
-      TintedIslePlantSheet_35: 1224407601824374507
-      TintedIslePlantSheet_36: -801871584818109646
-      TintedIslePlantSheet_37: -3935683286329553771
-      TintedIslePlantSheet_38: 8353504351198290951
       TintedIslePlantSheet_39: -2496799623776641302
-      TintedIslePlantSheet_4: 1019555463973002132
       TintedIslePlantSheet_40: -709834454604440853
       TintedIslePlantSheet_41: 8241736913231715974
       TintedIslePlantSheet_42: -7766542320679947591
@@ -6351,12 +6355,8 @@ TextureImporter:
       TintedIslePlantSheet_6: 631786033512094740
       TintedIslePlantSheet_60: -2678574589065228881
       TintedIslePlantSheet_61: 4572433561223024427
-      TintedIslePlantSheet_66: -5921752634162897942
       TintedIslePlantSheet_67: 8416612541572446477
-      TintedIslePlantSheet_68: 3416610016208939484
-      TintedIslePlantSheet_69: 8734063187257864629
       TintedIslePlantSheet_7: -8561270862591999727
-      TintedIslePlantSheet_70: 2025368533682137558
       TintedIslePlantSheet_71: 6331010895869099142
       TintedIslePlantSheet_72: -7340694933925277916
       TintedIslePlantSheet_73: -7137513981722162848

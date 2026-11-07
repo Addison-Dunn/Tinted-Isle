@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Diagnostics;
 using UnityEngine.InputSystem;
 
 public class GardenPlot : MonoBehaviour
@@ -109,7 +110,7 @@ public class GardenPlot : MonoBehaviour
             #region determine how much the containd plant will grow
             if (clampedGrowth < 0)
             {
-                plantGrowthDelta = Random.value <= 0.5f ? -1 : 0;
+                plantGrowthDelta = Random.value <= Mathf.Abs(clampedGrowth) ? -1 : 0;
             }
             else if (clampedGrowth < 0.5f)
             {
@@ -117,11 +118,11 @@ public class GardenPlot : MonoBehaviour
             }
             else if (clampedGrowth < 1)
             {
-                plantGrowthDelta = Random.value <= 0.5f ? 1 : 0;
+                plantGrowthDelta = Random.value <= clampedGrowth ? 1 : 0;
             }
             else if (clampedGrowth < 2)
             {
-                plantGrowthDelta = Random.value <= 0.5f ? 2 : 1;
+                plantGrowthDelta = Random.value <= Utils.Map(clampedGrowth,-1,2,0,1,true) ? 2 : 1;
             }
             else if (clampedGrowth == 2)
             {
