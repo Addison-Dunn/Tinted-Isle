@@ -14,7 +14,7 @@ public class MousePosBehavior : MonoBehaviour
     {
         if(transform.childCount != 0)
         {
-            ItemSeed heldItem = GetComponentInChildren<ItemSeed>();
+            Item heldItem = GetComponentInChildren<Item>();
             Collider2D hoveredContainer = Physics2D.OverlapPoint(transform.position);
             if (hoveredContainer == null)
             {

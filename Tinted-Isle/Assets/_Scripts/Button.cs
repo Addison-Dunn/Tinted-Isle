@@ -8,12 +8,11 @@ public class Button : MonoBehaviour
 
     public PointSensor ps;
     bool hovered => ps.hovered;
-
     private PointAndClick pnc;
     private void Awake()
     {
         pnc = ps.mousePosGO.transform.GetComponentInParent<PointAndClick>();
-        pnc.onClick.AddListener(OnClick);
+        pnc.onClickPush.AddListener(OnClick);
     }
 
     void OnClick()

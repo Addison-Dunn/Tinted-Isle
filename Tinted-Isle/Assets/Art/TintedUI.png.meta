@@ -423,6 +423,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: HotbarBorder
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 200
+        width: 186
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72563a98f22b9b1429094b6c55e649aa
+      internalID: -666824053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InventoryBorder
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 48
+        width: 186
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23411c49c2f041c4599b02faa2061997
+      internalID: 358058773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -441,6 +485,8 @@ TextureImporter:
       ClockEdges: -967985708
       ClockPointer: 4432947363657732747
       ClockPointerTail: -843250863
+      HotbarBorder: -666824053
+      InventoryBorder: 358058773
       TintedUI_0: 2461884692775882888
       TintedUI_1: 5932060992665270846
       TintedUI_10: 7929354529670147943

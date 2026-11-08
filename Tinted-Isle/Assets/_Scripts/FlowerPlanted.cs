@@ -27,7 +27,7 @@ public class FlowerPlanted : MonoBehaviour
     [Header("Growth Functionality")]
     public float timeUntilNextGrowth;
     public int remainingGrowth;
-    public int currentGrowth;
+    public int currentGrowth = 1;
     public int targetGrowth;
 
     [Header("Growth attributes")]
@@ -98,11 +98,14 @@ public class FlowerPlanted : MonoBehaviour
         Vector3 itemPos = transform.localPosition;
         itemPos.z = -0.1f;
         transform.localPosition = itemPos;
-        currentGrowth = 1;
         StartCoroutine(Shake(growShakeDur, growShakeMag));
-        StartCoroutine(GrowEffect());
+        StartCoroutine(RegressEffect());
     }
 
+    public void PickUp()
+    {
+
+    }
     public IEnumerator GrowEffect()
     {
         Vector3 scale = new Vector3(1.5f, 1.5f, 1.5f);
@@ -118,7 +121,6 @@ public class FlowerPlanted : MonoBehaviour
         }
 
     }
-
     public IEnumerator RegressEffect()
     {
         Vector3 scale = new Vector3(1.5f, 1.5f, 1.5f);
@@ -134,7 +136,6 @@ public class FlowerPlanted : MonoBehaviour
         }
 
     }
-
     public IEnumerator Shake(float duration, float magnitude)
     {
         float elapsed = 0;

@@ -4,8 +4,9 @@ public class ButtonInventory : MonoBehaviour
 {
     public SpriteMask spriteMask;
 
+    public GameObject arrowSprite;
     public GameObject hotbarGO;
-
+    public GameObject gardenHolder;
     public AnimationCurve easing;
     public float openDuration;
     public float totalDistance;
@@ -21,17 +22,19 @@ public class ButtonInventory : MonoBehaviour
     private void Awake()
     {
         startPos = hotbarGO.transform.localPosition;
+
     }
     public void OnClick()
     {
         open = open ? false : true;
         lerpTime = 0;
         startLerpPos = hotbarGO.transform.localPosition;
-        startLerpRot = transform.localEulerAngles.z;
+        startLerpRot = arrowSprite.transform.localEulerAngles.z;
     }
 
     private void Update()
     {
+
         targetPos = open ? endPos : startPos;
         
         if(hotbarGO.transform.localPosition != targetPos)
@@ -51,9 +54,9 @@ public class ButtonInventory : MonoBehaviour
             hotbarGO.transform.localPosition = pos;
 
             float targetRotation = open ? 180 : 0;
-            Vector3 rotation = transform.localEulerAngles;
+            Vector3 rotation = arrowSprite.transform.localEulerAngles;
             rotation.z = Mathf.LerpAngle(startLerpRot, targetRotation, progress);
-            transform.localEulerAngles = rotation;
+            arrowSprite.transform.localEulerAngles = rotation;
         }
     }
 }

@@ -1,11 +1,10 @@
 using TMPro;
 using UnityEngine;
 
-public enum eFlower { red, green, yellow, blue, orange, indigo, purple, pink, brown };
-
-
-public class ItemSeed : MonoBehaviour
+public abstract class Item : MonoBehaviour
 {
+    [Header("Inherited")]
+    public string Identifier;
     [Header("Count text")]
     public TMP_FontAsset unMaskedFont;
     public TMP_FontAsset maskedFont;
@@ -14,17 +13,11 @@ public class ItemSeed : MonoBehaviour
     public int maxCount;
     public int count;
 
-    [HideInInspector]public GameObject lastContainer;
+    [HideInInspector] public GameObject lastContainer;
 
     [Header("Sprites")]
 
     public SpriteRenderer sr;
-
-    [Header("FlowerType")]
-    public eFlower flowerType;
-
-    [Header("Seperate prefab for the planted flower")]
-    public GameObject flowerPlanted;
 
     private void Start()
     {
@@ -41,7 +34,7 @@ public class ItemSeed : MonoBehaviour
         transform.localPosition = itemPos;
 
         HotbarSlot hs = targetContainer.GetComponent<HotbarSlot>();
-        if(hs != null)
+        if (hs != null)
         {
             if (hs.inventorySlot)
             {
@@ -52,19 +45,12 @@ public class ItemSeed : MonoBehaviour
             {
                 sr.maskInteraction = SpriteMaskInteraction.None;
                 countText.font = unMaskedFont;
-
             }
         }
     }
-
-    public void GetPlanted()
-    {
-
-    }
-
     public void UpdateCountText()
     {
-        if(count > 1)
+        if (count > 1)
         {
             countText.text = "" + count;
         }
@@ -73,13 +59,4 @@ public class ItemSeed : MonoBehaviour
             countText.text = "";
         }
     }
-
-    public void Grow(int amount)
-    {
-        if (amount > 0)
-        {
-
-        }
-    }
-
 }

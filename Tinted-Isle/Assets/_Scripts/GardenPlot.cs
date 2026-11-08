@@ -4,7 +4,6 @@ using UnityEngine.InputSystem;
 
 public class GardenPlot : MonoBehaviour
 {
-    public SpriteRenderer highlightedSr;
     public SpriteRenderer sr;
 
     public Sprite covered;
@@ -35,59 +34,65 @@ public class GardenPlot : MonoBehaviour
         gm = Object.FindAnyObjectByType<GameManager>();
         gm.updateGrowth.AddListener(UpdateContainedFlowerGrowth);
 
-        clickAction = InputSystem.actions.FindAction("Click");
         ps = GetComponent<PointSensor>();
-
         pnc = ps.mousePosGO.transform.GetComponentInParent<PointAndClick>();
 
-        pnc.onClick.AddListener(OnClick);
+        pnc.onClickPush.AddListener(OnClick);
         pnc.onClickRelease.AddListener(OnClickRelease);
-
     }
 
     private void Update()
     {
-        if (!bi.open)
+        if (bi.open)
         {
-            if (hovered)
-            {
-                highlightedSr.enabled = true;
-            }
-            else
-            {
-                highlightedSr.enabled = false;
-            }
+            ps.hoverable = false;
+        }
+        else
+        {
+            ps.hoverable = true;
         }
     }
 
     void OnClick()
     {
-        if (!bi.open)
+        if (hovered)
         {
-            if (hovered && ps.mousePosGO.transform.childCount != 0)
+            if (ps.mousePosGO.transform.childCount != 0)
             {
-                ItemSeed mouseItem = ps.mousePosGO.GetComponentInChildren<ItemSeed>();
-
-
-                if (gameObject.transform.childCount == 1)
+                // if mouse is holding a seed item, plant a flower on this plot
+                ItemSeed mouseItemSeed = ps.mousePosGO.GetComponentInChildren<ItemSeed>();
+                if (mouseItemSeed != null)
                 {
-                    GameObject dropFlower = Instantiate(mouseItem.flowerPlanted);
-                    FlowerPlanted fp = dropFlower.GetComponent<FlowerPlanted>();
-                    fp.SendToGardenPlot(gameObject);
-                    mouseItem.count--;
-                    mouseItem.UpdateCountText();
-
-                    if (mouseItem.count == 0)
+                    if (gameObject.transform.childCount == 1)
                     {
-                        Destroy(mouseItem.gameObject);
+                        GameObject dropFlower = Instantiate(mouseItemSeed.flowerPlanted);
+                        FlowerPlanted fp = dropFlower.GetComponent<FlowerPlanted>();
+                        fp.SendToGardenPlot(gameObject);
+                        mouseItemSeed.count--;
+                        mouseItemSeed.UpdateCountText();
+
+                        if (mouseItemSeed.count == 0)
+                        {
+                            Destroy(mouseItemSeed.gameObject);
+                        }
+                    }
+                    else
+                    {
+                        mouseItemSeed.SendToContainer(mouseItemSeed.lastContainer);
                     }
                 }
-                else
-                {
-                    mouseItem.SendToContainer(mouseItem.lastContainer);
-                }
+  
             }
+
+
+            //if mouse is holding shovel, pickup the flower at its current stage
+
+
+
+            //if mouse is holding snips, harvest the flower
+            
         }
+        
     }
     void OnClickRelease()
     {

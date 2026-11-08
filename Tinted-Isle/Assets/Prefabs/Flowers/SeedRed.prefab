@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.25}
+  m_AnchoredPosition: {x: 0, y: -0.125}
   m_SizeDelta: {x: 1, y: 0.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1469517054508073397
@@ -195,7 +195,7 @@ GameObject:
   - component: {fileID: 1023083600482038835}
   - component: {fileID: 2489456507327137840}
   m_Layer: 0
-  m_Name: SeedBlue
+  m_Name: SeedRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -209,7 +209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4628318574684927228}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4, y: 0, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -266,7 +266,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 1019555463973002132, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
+  m_Sprite: {fileID: -450468873618539306, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -288,6 +288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3176a6b9edb642b42945a1cb8fdce316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemSeed
+  Identifier: SeedRed
   unMaskedFont: {fileID: 11400000, guid: d2cf6670a5467fb4fa745e48936a9f54, type: 2}
   maskedFont: {fileID: 11400000, guid: 2d8130df934762341b7005ee0e02a6b0, type: 2}
   countText: {fileID: 2511833292138780059}
@@ -295,5 +296,5 @@ MonoBehaviour:
   count: 1
   lastContainer: {fileID: 0}
   sr: {fileID: 1023083600482038835}
-  flowerType: 3
-  flowerPlanted: {fileID: 2319650884898053496, guid: 7f7b6f6ec9ee9cd488234e39eedce7e3, type: 3}
+  flowerType: 0
+  flowerPlanted: {fileID: 2319650884898053496, guid: fa9defcaf2f77d147a9a4a577bfb7f9e, type: 3}
