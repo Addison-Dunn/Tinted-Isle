@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4889564610459833093}
   - component: {fileID: 1033069338309375485}
   m_Layer: 0
-  m_Name: FlowerPlantedPurple
+  m_Name: FlowerPlantedGreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 3416610016208939484, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
+  m_Sprite: {fileID: -3444520378966938331, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,10 +104,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5175c39f64dfb8743b7b3ef235cd7d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FlowerPlanted
-  growth1: {fileID: 3416610016208939484, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
-  growth2: {fileID: 5044587820172298869, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
-  growth3: {fileID: -1951762935676277869, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
-  growth4: {fileID: 5127683685598929269, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
+  growth1: {fileID: -3444520378966938331, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
+  growth2: {fileID: 2524102033711708762, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
+  growth3: {fileID: 6851646432024030172, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
+  growth4: {fileID: -3581864312126171682, guid: 2c087d0db0fcbf447afd38c9742eb9f6, type: 3}
   growEffectTime: 0.4
   growEffectEasing:
     serializedVersion: 2
@@ -218,3 +218,7 @@ MonoBehaviour:
   minGrowthChance: -1
   dryMult: 1
   wetMult: 1
+  seedItem: {fileID: 4628318574684927228, guid: 7faa240525ba37b45a3ce87b28f8a775, type: 3}
+  flowerItem: {fileID: 4628318574684927228, guid: 7f571c8efbf078346a149de9fab17e79, type: 3}
+  maxSeeds: 3
+  maxFlowers: 1

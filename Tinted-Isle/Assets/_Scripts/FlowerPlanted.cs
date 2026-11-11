@@ -36,6 +36,13 @@ public class FlowerPlanted : MonoBehaviour
     public float dryMult = 1;
     public float wetMult = 1;
 
+    [Header("harvest")]
+    public GameObject seedItem;
+    public GameObject flowerItem;
+    public int maxSeeds;
+    public int maxFlowers;
+
+
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -102,6 +109,34 @@ public class FlowerPlanted : MonoBehaviour
         StartCoroutine(RegressEffect());
     }
 
+    public void Harvest()
+    {
+        if (currentGrowth == 4)
+        {
+            int seedsAmount = Random.Range(1, maxSeeds);
+            int flowersAmount = Random.Range(1, maxFlowers);
+
+            //drop seeds
+            for (int i = 0; i < seedsAmount; i++)
+            {
+                GameObject droppedSeed = Instantiate(seedItem, transform.position, Quaternion.identity);
+                Item item = droppedSeed.GetComponent<Item>();
+                item.droppedItem = true;
+                item.StartCoroutine(item.DropItem(1, 0.2f));
+            }
+
+            //drop flowers
+            for (int i = 0; i < flowersAmount; i++)
+            {
+                GameObject droppedFlower = Instantiate(flowerItem, transform.position, Quaternion.identity);
+                Item item = droppedFlower.GetComponent<Item>();
+                item.droppedItem = true;
+                item.StartCoroutine(item.DropItem(1, 0.2f));
+            }
+        }
+
+        Destroy(gameObject);
+    }
     public void PickUp()
     {
 

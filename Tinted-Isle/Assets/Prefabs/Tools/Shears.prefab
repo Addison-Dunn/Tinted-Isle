@@ -81,9 +81,9 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 39871f8410f68e94588006d269b5cf17, type: 3}
+  m_Sprite: {fileID: 2605860590813161618, guid: 5fb6f9b5f0420dd43bf290eab6af0c79, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -111,8 +111,16 @@ MonoBehaviour:
   countText: {fileID: 1736971831301992782}
   maxCount: 1
   count: 1
+  queuedCount: 0
   lastContainer: {fileID: 0}
   sr: {fileID: 6692215760729834042}
+  easing:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  droppedItem: 0
 --- !u!1 &9065835086243274280
 GameObject:
   m_ObjectHideFlags: 0

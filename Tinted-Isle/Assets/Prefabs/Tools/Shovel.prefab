@@ -264,9 +264,9 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: fe13560412cc9364a821d7e9580230e9, type: 3}
+  m_Sprite: {fileID: -6376021489006587410, guid: 5fb6f9b5f0420dd43bf290eab6af0c79, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -294,5 +294,13 @@ MonoBehaviour:
   countText: {fileID: 1618212687734493944}
   maxCount: 1
   count: 1
+  queuedCount: 0
   lastContainer: {fileID: 0}
   sr: {fileID: 8987934214650458572}
+  easing:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  droppedItem: 0

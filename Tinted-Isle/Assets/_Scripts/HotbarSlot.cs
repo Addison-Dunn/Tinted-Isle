@@ -10,6 +10,7 @@ public class HotbarSlot : MonoBehaviour
 
     public bool inventorySlot;
     public bool visible;
+    public bool droppedItemQueued;
     private void Awake()
     {
         visible = inventorySlot ? false : true;
@@ -38,8 +39,6 @@ public class HotbarSlot : MonoBehaviour
                 containedItem.sr.maskInteraction = SpriteMaskInteraction.None;
                 containedItem.countText.font = containedItem.unMaskedFont;
                 containedItem = null;
-
-
             }
         }
         else 

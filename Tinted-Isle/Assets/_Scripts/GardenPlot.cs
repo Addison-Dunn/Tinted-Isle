@@ -59,7 +59,7 @@ public class GardenPlot : MonoBehaviour
         {
             if (ps.mousePosGO.transform.childCount != 0)
             {
-                // if mouse is holding a seed item, plant a flower on this plot
+                // if mouse is holding a seed, plant a flower on this plot
                 ItemSeed mouseItemSeed = ps.mousePosGO.GetComponentInChildren<ItemSeed>();
                 if (mouseItemSeed != null)
                 {
@@ -81,18 +81,38 @@ public class GardenPlot : MonoBehaviour
                         mouseItemSeed.SendToContainer(mouseItemSeed.lastContainer);
                     }
                 }
-  
+                else
+                {
+                    Item itemRef = ps.mousePosGO.GetComponentInChildren<Item>();
+                    if (itemRef != null && transform.childCount > 1)
+                    {
+                        //if mouse is holding snips, harvest the flower
+                        FlowerPlanted fp = GetComponentInChildren<FlowerPlanted>();
+
+                        if (itemRef.Identifier == "Shears")
+                        {
+                            fp.Harvest();
+                        }
+                        else if (itemRef.Identifier == "Shovel")
+                        {
+                            //if mouse is holding shovel,and there is a flower pickup the flower at its current stage
+
+
+                        }
+                    }
+                }
+
+
+
+
             }
 
 
-            //if mouse is holding shovel, pickup the flower at its current stage
 
 
 
-            //if mouse is holding snips, harvest the flower
-            
         }
-        
+
     }
     void OnClickRelease()
     {

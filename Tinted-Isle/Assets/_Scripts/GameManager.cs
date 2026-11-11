@@ -1,5 +1,7 @@
+using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.Events;
+using System.Collections.Generic;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
@@ -19,8 +21,20 @@ public class GameManager : MonoBehaviour
     public float growthTickRate;
     public float elapsedTime;
 
+    [Header("Inventory")]
+    public List<Transform> rows = new List<Transform>();
+    public List<HotbarSlot> slots = new List<HotbarSlot>();
+
     private void Awake()
     {
+        foreach(Transform row in rows)
+        {
+            HotbarSlot[] childSlots = row.GetComponentsInChildren<HotbarSlot>();
+            foreach(HotbarSlot hotbarSlot in childSlots)
+            {
+                slots.Add(hotbarSlot);
+            }
+        }
         Instance = this;
         if (startDayOnAwake)
         {

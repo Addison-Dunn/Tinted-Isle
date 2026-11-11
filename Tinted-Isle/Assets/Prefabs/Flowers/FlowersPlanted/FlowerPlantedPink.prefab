@@ -218,3 +218,7 @@ MonoBehaviour:
   minGrowthChance: -1
   dryMult: 1
   wetMult: 1
+  seedItem: {fileID: 4628318574684927228, guid: 1bc7162ee76ff584099000b032d0575e, type: 3}
+  flowerItem: {fileID: 4628318574684927228, guid: 5468fb03c6b3e0940a355d353d815e8e, type: 3}
+  maxSeeds: 3
+  maxFlowers: 1
