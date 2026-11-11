@@ -76,20 +76,24 @@ public abstract class Item : MonoBehaviour
         int index = 0;
         while (index < GameManager.Instance.slots.Count)
         {
-            HotbarSlot hotbarSlot = GameManager.Instance.slots[index];
+            HotbarSlot thisHotbarSlot = GameManager.Instance.slots[index];
 
-            if(!hotbarSlot.droppedItemQueued && firstEmptyContainer == null && hotbarSlot.transform.childCount == 0)
+            if(firstEmptyContainer == null && thisHotbarSlot.transform.childCount == 0)
             {
-                firstEmptyContainer = hotbarSlot.gameObject;
+                if((thisHotbarSlot.queuedItem != null && thisHotbarSlot.queuedItem.Identifier == Identifier) ||
+                   thisHotbarSlot.queuedItem == null)
+                {
+                    firstEmptyContainer = thisHotbarSlot.gameObject;
+                }
             }
 
-            if(hotbarSlot.transform.childCount != 0)
+            if(thisHotbarSlot.transform.childCount != 0)
             {
-                Item item = hotbarSlot.GetComponentInChildren<Item>();
-                if(item.Identifier == Identifier && item.queuedCount <= item.maxCount - count)
+                Item item = thisHotbarSlot.GetComponentInChildren<Item>();
+                if(item.Identifier == Identifier && item.queuedCount < item.maxCount - 1)
                 {
                     item.queuedCount += count;
-                    container = hotbarSlot.gameObject;
+                    container = thisHotbarSlot.gameObject;
                     index = GameManager.Instance.slots.Count;
                 }
             }
@@ -99,7 +103,7 @@ public abstract class Item : MonoBehaviour
         if(container == null)
         {
             HotbarSlot hotbarSlot = firstEmptyContainer.GetComponent<HotbarSlot>();
-            hotbarSlot.droppedItemQueued = true;
+            hotbarSlot.queuedItem = this;
             return firstEmptyContainer;
         }
         else
@@ -108,11 +112,18 @@ public abstract class Item : MonoBehaviour
         }
     }
 
-    public IEnumerator SendToContainerLerped(GameObject targetContainer, float duration)
+    public IEnumerator SendToContainerLerped(GameObject targetContainer, float duration, bool sendingToHotbarSlot)
     {
+        transform.position = new Vector3(transform.position.x, transform.position.y, -3);
         Vector3 startPos = transform.position;
         Vector3 endPos = targetContainer.transform.position;
-        endPos.z = -0.1f;
+        if (!ButtonInventory.Instance.open && !sendingToHotbarSlot)
+        {
+            endPos = ButtonInventory.Instance.transform.position;
+        }
+        startPos.z = -3f;
+        endPos.z = -3f;
+
         float elapsed = 0;
 
         while (elapsed < duration)
@@ -121,13 +132,13 @@ public abstract class Item : MonoBehaviour
             float t = elapsed / duration;
             t = easing.Evaluate(t);
 
-            transform.position = Vector2.Lerp(startPos, endPos, t);
+            transform.position = Vector3.Lerp(startPos, endPos, t);
             yield return null;
         }
         transform.position = endPos;
         targetContainer.TryGetComponent<HotbarSlot>(out HotbarSlot hotbarSlot);
         targetContainer.TryGetComponent<GardenPlot>(out GardenPlot gardenPlot);
-        if (hotbarSlot != null) hotbarSlot.droppedItemQueued = false;
+        if (hotbarSlot != null) hotbarSlot.queuedItem = null;
         droppedItem = false;
         if (hotbarSlot != null || gardenPlot != null)
         {
@@ -151,6 +162,9 @@ public abstract class Item : MonoBehaviour
 
     public IEnumerator DropItem(float magnitude, float duration)
     {
+        sr.maskInteraction = SpriteMaskInteraction.None;
+        countText.font = unMaskedFont;
+
         Vector2 startPos = transform.position;
         Vector2 endPos = startPos + Random.insideUnitCircle * magnitude;
 
@@ -169,6 +183,8 @@ public abstract class Item : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
 
         GameObject targetContainer = FindAvailableContainer();
-        if (targetContainer != null) StartCoroutine(SendToContainerLerped(targetContainer, 0.5f));
+        targetContainer.TryGetComponent<HotbarSlot>(out HotbarSlot hotbarSlot);
+
+        if (targetContainer != null) StartCoroutine(SendToContainerLerped(targetContainer, 0.5f, hotbarSlot != null && !hotbarSlot.inventorySlot));
     }
 }

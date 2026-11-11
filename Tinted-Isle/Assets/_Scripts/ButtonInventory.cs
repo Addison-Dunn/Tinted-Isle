@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class ButtonInventory : MonoBehaviour
 {
+    public static ButtonInventory Instance;
+
     public SpriteMask spriteMask;
 
     public GameObject arrowSprite;
@@ -21,8 +23,8 @@ public class ButtonInventory : MonoBehaviour
 
     private void Awake()
     {
+        Instance = this;
         startPos = hotbarGO.transform.localPosition;
-
     }
     public void OnClick()
     {

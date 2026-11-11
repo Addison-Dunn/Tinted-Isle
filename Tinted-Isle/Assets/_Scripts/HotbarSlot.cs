@@ -10,7 +10,7 @@ public class HotbarSlot : MonoBehaviour
 
     public bool inventorySlot;
     public bool visible;
-    public bool droppedItemQueued;
+    public Item queuedItem;
     private void Awake()
     {
         visible = inventorySlot ? false : true;
@@ -28,8 +28,11 @@ public class HotbarSlot : MonoBehaviour
         {
             if (hovered && gameObject.transform.childCount != 0)
             {
-                Item containedItem;
-                containedItem = GetComponentInChildren<Item>();
+
+                Item containedItem = GetComponentInChildren<Item>();
+
+                queuedItem = containedItem;
+
                 containedItem.gameObject.transform.parent = ps.mousePosGO.transform;
                 containedItem.gameObject.transform.localPosition = Vector2.zero;
                 Vector3 itemPos = containedItem.gameObject.transform.position;
@@ -50,6 +53,7 @@ public class HotbarSlot : MonoBehaviour
 
                 if (gameObject.transform.childCount == 0)
                 {
+                    
                     mouseItem.SendToContainer(this.gameObject);
                 }
                 else
@@ -81,6 +85,8 @@ public class HotbarSlot : MonoBehaviour
                         mouseItem.SendToContainer(mouseItem.lastContainer);
                     }
                 }
+                mouseItem.lastContainer.TryGetComponent<HotbarSlot>(out HotbarSlot hotbarSlot);
+                if (hotbarSlot != null) hotbarSlot.queuedItem = null;
             }
         }
     }
