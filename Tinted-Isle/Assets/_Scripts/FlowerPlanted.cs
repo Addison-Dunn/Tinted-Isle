@@ -16,9 +16,9 @@ public class FlowerPlanted : MonoBehaviour
 
     [Header("Grow Effect")]
     public float growEffectTime;
-    public AnimationCurve growEffectEasing;
-    public AnimationCurve growShakeEasing;
-    public AnimationCurve regressEffectEasing;
+    private AnimationCurve growEffectEasing;
+    private AnimationCurve growShakeEasing;
+    private AnimationCurve regressEffectEasing;
 
 
     public float growShakeMag;
@@ -46,6 +46,9 @@ public class FlowerPlanted : MonoBehaviour
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
+        growEffectEasing = Library.Instance.flowerGrow;
+        growShakeEasing = Library.Instance.flowerPlaceShake;
+        regressEffectEasing = Library.Instance.flowerRegress;
     }
 
     public void InitializeGrowth(int amount)
@@ -109,12 +112,27 @@ public class FlowerPlanted : MonoBehaviour
         StartCoroutine(RegressEffect());
     }
 
+    //public void Harvest()
+    //{
+    //    StartCoroutine(DropItems());
+    //}
     public void Harvest()
     {
+        sr.enabled = false;
         if (currentGrowth == 4)
         {
             int seedsAmount = Random.Range(1, maxSeeds);
             int flowersAmount = Random.Range(1, maxFlowers);
+
+            //drop flowers
+            for (int i = 0; i < flowersAmount; i++)
+            {
+                GameObject droppedFlower = Instantiate(flowerItem, transform.position, Quaternion.identity);
+                Item item = droppedFlower.GetComponent<Item>();
+                item.droppedItem = true;
+                item.StartCoroutine(item.DropItem(1, 0.2f));
+
+            }
 
             //drop seeds
             for (int i = 0; i < seedsAmount; i++)
@@ -125,14 +143,7 @@ public class FlowerPlanted : MonoBehaviour
                 item.StartCoroutine(item.DropItem(1, 0.2f));
             }
 
-            //drop flowers
-            for (int i = 0; i < flowersAmount; i++)
-            {
-                GameObject droppedFlower = Instantiate(flowerItem, transform.position, Quaternion.identity);
-                Item item = droppedFlower.GetComponent<Item>();
-                item.droppedItem = true;
-                item.StartCoroutine(item.DropItem(1, 0.2f));
-            }
+ 
         }
 
         Destroy(gameObject);

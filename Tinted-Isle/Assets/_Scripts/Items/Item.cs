@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public abstract class Item : MonoBehaviour
 {
@@ -103,7 +104,7 @@ public abstract class Item : MonoBehaviour
         if(container == null)
         {
             HotbarSlot hotbarSlot = firstEmptyContainer.GetComponent<HotbarSlot>();
-            hotbarSlot.queuedItem = this;
+            if(hotbarSlot.queuedItem == null) hotbarSlot.queuedItem = this;
             return firstEmptyContainer;
         }
         else
@@ -121,8 +122,8 @@ public abstract class Item : MonoBehaviour
         {
             endPos = ButtonInventory.Instance.transform.position;
         }
-        startPos.z = -3f;
-        endPos.z = -3f;
+        startPos.z = -2.25f;
+        endPos.z = -2.25f;
 
         float elapsed = 0;
 
@@ -136,10 +137,12 @@ public abstract class Item : MonoBehaviour
             yield return null;
         }
         transform.position = endPos;
+
         targetContainer.TryGetComponent<HotbarSlot>(out HotbarSlot hotbarSlot);
         targetContainer.TryGetComponent<GardenPlot>(out GardenPlot gardenPlot);
-        if (hotbarSlot != null) hotbarSlot.queuedItem = null;
+
         droppedItem = false;
+        bool destroyMe = false;
         if (hotbarSlot != null || gardenPlot != null)
         {
             int childCountCheck;
@@ -155,7 +158,27 @@ public abstract class Item : MonoBehaviour
                 Item containedItem = targetContainer.GetComponentInChildren<Item>();
                 containedItem.count += count;
                 containedItem.UpdateCountText();
-                Destroy(gameObject);
+                destroyMe = true;
+            }
+        }
+
+        yield return StartCoroutine(SendItemToInventoryEffect(gameObject, 0.3f, sendingToHotbarSlot, destroyMe));
+
+        if (hotbarSlot != null || gardenPlot != null)
+        {
+            int childCountCheck;
+            childCountCheck = hotbarSlot != null ? 0 : 1;
+
+            //if the target container is empty
+            if (targetContainer.transform.childCount == childCountCheck)
+            {
+            }
+            else
+            {
+                //Item containedItem = targetContainer.GetComponentInChildren<Item>();
+                ////containedItem.count += count;
+                //containedItem.UpdateCountText();
+                //Destroy(gameObject);
             }
         }
     }
@@ -187,4 +210,37 @@ public abstract class Item : MonoBehaviour
 
         if (targetContainer != null) StartCoroutine(SendToContainerLerped(targetContainer, 0.5f, hotbarSlot != null && !hotbarSlot.inventorySlot));
     }
+
+    public IEnumerator SendItemToInventoryEffect(GameObject targetItem, float duration, bool targetIsHotbar, bool destroyAtEnd)
+    {
+        float elapsed = 0;
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / duration;
+            float scale = 1;
+            if (ButtonInventory.Instance.open)
+            {
+                scale = Library.Instance.itemBounce.Evaluate(t);
+            }
+            else
+            {
+                if (targetIsHotbar)
+                {
+                    scale = Library.Instance.itemBounce.Evaluate(t);
+                }
+                else
+                {
+                    scale = Library.Instance.itemShrink.Evaluate(t);
+                }
+            }
+            targetItem.transform.localScale = new Vector3(scale, scale, scale);
+            yield return null;
+        }
+
+        targetItem.transform.localScale = new Vector3(1, 1, 1);
+
+        if (destroyAtEnd) Destroy(gameObject);
+    }
+
 }
