@@ -25,6 +25,9 @@ public class GameManager : MonoBehaviour
     public List<Transform> rows = new List<Transform>();
     public List<HotbarSlot> slots = new List<HotbarSlot>();
 
+    [Header("Mouse pos GO")]
+    public GameObject mousePosGO;
+
     private void Awake()
     {
         foreach(Transform row in rows)

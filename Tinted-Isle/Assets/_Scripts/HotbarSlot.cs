@@ -9,12 +9,9 @@ public class HotbarSlot : MonoBehaviour
     private PointAndClick pnc;
 
     public bool inventorySlot;
-    public bool visible;
     public Item queuedItem;
     private void Awake()
     {
-        visible = inventorySlot ? false : true;
-
         pnc = ps.mousePosGO.transform.GetComponentInParent<PointAndClick>();
 
         pnc.onClickPush.AddListener(OnClick);
@@ -60,7 +57,7 @@ public class HotbarSlot : MonoBehaviour
                 {
                     Item containedItem = GetComponentInChildren<Item>();
 
-                    if (containedItem.Identifier == mouseItem.Identifier)
+                    if (containedItem.identifier == mouseItem.identifier)
                     {
                         if ((containedItem.count + mouseItem.count) > containedItem.maxCount)
                         {

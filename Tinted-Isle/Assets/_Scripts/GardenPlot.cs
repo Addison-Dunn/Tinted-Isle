@@ -89,11 +89,11 @@ public class GardenPlot : MonoBehaviour
                         //if mouse is holding snips, harvest the flower
                         FlowerPlanted fp = GetComponentInChildren<FlowerPlanted>();
 
-                        if (itemRef.Identifier == "Shears")
+                        if (itemRef.identifier == "Shears")
                         {
                             fp.Harvest();
                         }
-                        else if (itemRef.Identifier == "Shovel")
+                        else if (itemRef.identifier == "Shovel")
                         {
                             //if mouse is holding shovel,and there is a flower pickup the flower at its current stage
 

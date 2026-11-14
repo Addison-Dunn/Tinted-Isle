@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PointSensor : MonoBehaviour
 {
-    public GameObject mousePosGO;
+    [HideInInspector] public GameObject mousePosGO;
     public BoxCollider2D bc;
     public bool hovered;
     private SpriteRenderer sr;
@@ -12,6 +12,7 @@ public class PointSensor : MonoBehaviour
     private void Awake()
     {
         TryGetComponent<SpriteRenderer>(out sr);
+        mousePosGO = GameManager.Instance.mousePosGO;
     }
 
     private void Update()

@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 public abstract class Item : MonoBehaviour
 {
     [Header("Inherited")]
-    public string Identifier;
+    public string identifier;
     [Header("Count text")]
     public TMP_FontAsset unMaskedFont;
     public TMP_FontAsset maskedFont;
@@ -19,7 +19,6 @@ public abstract class Item : MonoBehaviour
     [HideInInspector] public GameObject lastContainer;
 
     [Header("Sprites")]
-
     public SpriteRenderer sr;
 
     [Header("Dropped Item")]
@@ -81,7 +80,7 @@ public abstract class Item : MonoBehaviour
 
             if(firstEmptyContainer == null && thisHotbarSlot.transform.childCount == 0)
             {
-                if((thisHotbarSlot.queuedItem != null && thisHotbarSlot.queuedItem.Identifier == Identifier) ||
+                if((thisHotbarSlot.queuedItem != null && thisHotbarSlot.queuedItem.identifier == identifier) ||
                    thisHotbarSlot.queuedItem == null)
                 {
                     firstEmptyContainer = thisHotbarSlot.gameObject;
@@ -91,7 +90,7 @@ public abstract class Item : MonoBehaviour
             if(thisHotbarSlot.transform.childCount != 0)
             {
                 Item item = thisHotbarSlot.GetComponentInChildren<Item>();
-                if(item.Identifier == Identifier && item.queuedCount < item.maxCount - 1)
+                if(item.identifier == identifier && item.queuedCount < item.maxCount - 1)
                 {
                     item.queuedCount += count;
                     container = thisHotbarSlot.gameObject;
