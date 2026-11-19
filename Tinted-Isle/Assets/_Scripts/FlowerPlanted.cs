@@ -42,6 +42,10 @@ public class FlowerPlanted : MonoBehaviour
     public int maxSeeds;
     public int maxFlowers;
 
+    [Header("Pickup")]
+    GardenPlot lastGardenPlot;
+    bool pickedUp;
+
 
     private void Awake()
     {
@@ -148,9 +152,12 @@ public class FlowerPlanted : MonoBehaviour
 
         Destroy(gameObject);
     }
-    public void PickUp()
+    public void PickUp(GardenPlot _lastGardenPlot, GameObject parentTarget)
     {
-
+        pickedUp = true;
+        lastGardenPlot = _lastGardenPlot;
+        transform.parent = parentTarget.transform;
+        transform.localPosition = new Vector3(0, 0, -0.1f);
     }
     public IEnumerator GrowEffect()
     {

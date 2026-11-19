@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be5b60d3c4c14de45971cb3354ae7798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemShears
-  Identifier: Shears
+  identifier: Shears
   unMaskedFont: {fileID: 11400000, guid: d2cf6670a5467fb4fa745e48936a9f54, type: 2}
   maskedFont: {fileID: 11400000, guid: 2d8130df934762341b7005ee0e02a6b0, type: 2}
   countText: {fileID: 1736971831301992782}

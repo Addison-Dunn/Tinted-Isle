@@ -81,38 +81,39 @@ public class GardenPlot : MonoBehaviour
                         mouseItemSeed.SendToContainer(mouseItemSeed.lastContainer);
                     }
                 }
-                else
+                else // if mouse isnt holding a seed...
                 {
                     Item itemRef = ps.mousePosGO.GetComponentInChildren<Item>();
-                    if (itemRef != null && transform.childCount > 1)
+                    if (itemRef != null)
                     {
-                        //if mouse is holding snips, harvest the flower
                         FlowerPlanted fp = GetComponentInChildren<FlowerPlanted>();
-
-                        if (itemRef.identifier == "Shears")
+                        #region harvest flower
+                        if (itemRef.identifier == "Shears" && transform.childCount > 1) //if mouse is holding snips, harvest the flower
                         {
                             fp.Harvest();
                         }
-                        else if (itemRef.identifier == "Shovel")
+                        #endregion
+
+                        #region move flower
+                        else if (itemRef.identifier == "Shovel") 
                         {
-                            //if mouse is holding shovel,and there is a flower pickup the flower at its current stage
-
-
+                            ItemShovel itemShovel = ps.mousePosGO.GetComponentInChildren<ItemShovel>();
+                            if (itemShovel.transform.childCount == 1 && transform.childCount > 1) // if the shovel isn't holding a flower
+                            {
+                                Debug.Log("picked up flower");
+                                fp.PickUp(this, itemShovel.gameObject);
+                            }
+                            else if (itemShovel.transform.childCount > 1 && transform.childCount == 1)// if shovel is holding a flower
+                            {
+                                FlowerPlanted heldFlower = itemShovel.gameObject.GetComponentInChildren<FlowerPlanted>();
+                                heldFlower.SendToGardenPlot(gameObject);
+                            }
                         }
+                        #endregion
                     }
                 }
-
-
-
-
             }
-
-
-
-
-
         }
-
     }
     void OnClickRelease()
     {

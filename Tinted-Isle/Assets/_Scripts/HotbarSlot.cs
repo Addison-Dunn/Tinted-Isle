@@ -47,24 +47,22 @@ public class HotbarSlot : MonoBehaviour
             if (hovered && ps.mousePosGO.transform.childCount != 0)
             {
                 Item mouseItem = ps.mousePosGO.GetComponentInChildren<Item>();
-
+                // if this container is empty
                 if (gameObject.transform.childCount == 0)
                 {
-                    
                     mouseItem.SendToContainer(this.gameObject);
                 }
-                else
+                else // if this container is not empty
                 {
                     Item containedItem = GetComponentInChildren<Item>();
 
-                    if (containedItem.identifier == mouseItem.identifier)
+                    if (containedItem.identifier == mouseItem.identifier) // if this container's item is the same as the held item
                     {
-                        if ((containedItem.count + mouseItem.count) > containedItem.maxCount)
+                        if ((containedItem.count + mouseItem.count) > containedItem.maxCount) // if this container's item's count is less than its max count
                         {
                             mouseItem.count = (containedItem.count + mouseItem.count) - containedItem.maxCount;
 
                             containedItem.count = containedItem.maxCount;
-
 
                             mouseItem.SendToContainer(mouseItem.lastContainer);
                             containedItem.UpdateCountText();

@@ -28,9 +28,13 @@ public class GameManager : MonoBehaviour
     [Header("Mouse pos GO")]
     public GameObject mousePosGO;
 
+    private void Start()
+    {
+        Instance = this;
+    }
     private void Awake()
     {
-        foreach(Transform row in rows)
+        foreach (Transform row in rows)
         {
             HotbarSlot[] childSlots = row.GetComponentsInChildren<HotbarSlot>();
             foreach(HotbarSlot hotbarSlot in childSlots)
@@ -38,7 +42,6 @@ public class GameManager : MonoBehaviour
                 slots.Add(hotbarSlot);
             }
         }
-        Instance = this;
         if (startDayOnAwake)
         {
             DayStart();

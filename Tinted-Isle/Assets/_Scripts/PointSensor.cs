@@ -12,7 +12,7 @@ public class PointSensor : MonoBehaviour
     private void Awake()
     {
         TryGetComponent<SpriteRenderer>(out sr);
-        mousePosGO = GameManager.Instance.mousePosGO;
+        //mousePosGO = GameManager.Instance.mousePosGO;
     }
 
     private void Update()

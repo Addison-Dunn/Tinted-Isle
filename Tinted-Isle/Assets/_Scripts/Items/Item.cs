@@ -32,7 +32,7 @@ public abstract class Item : MonoBehaviour
         UpdateCountText();
     }
 
-    public void SendToContainer(GameObject targetContainer)
+    public virtual void SendToContainer(GameObject targetContainer)
     {
         transform.parent = targetContainer.transform;
         transform.localPosition = Vector2.zero;
