@@ -80,7 +80,7 @@ public class FlowerPlanted : MonoBehaviour
             if(timeUntilNextGrowth <= 0)
             {
                 remainingGrowth += growDir;
-                Grow(growDir);
+                if(!pickedUp) Grow(growDir);
                 GameManager gm = GameManager.Instance;
                 timeUntilNextGrowth = Random.Range(gm.elapsedTime, gm.elapsedTime + (gm.dayLength - gm.elapsedTime) / Mathf.Abs(remainingGrowth));
             }
@@ -107,6 +107,7 @@ public class FlowerPlanted : MonoBehaviour
 
     public void SendToGardenPlot(GameObject targetContainer)
     {
+        pickedUp = false;
         transform.parent = targetContainer.transform;
         transform.localPosition = Vector2.zero;
         Vector3 itemPos = transform.localPosition;
@@ -114,6 +115,7 @@ public class FlowerPlanted : MonoBehaviour
         transform.localPosition = itemPos;
         StartCoroutine(Shake(growShakeDur, growShakeMag));
         StartCoroutine(RegressEffect());
+        sr.sortingOrder = 0;
     }
 
     //public void Harvest()
@@ -155,9 +157,10 @@ public class FlowerPlanted : MonoBehaviour
     public void PickUp(GardenPlot _lastGardenPlot, GameObject parentTarget)
     {
         pickedUp = true;
+        sr.sortingOrder = 2;
         lastGardenPlot = _lastGardenPlot;
         transform.parent = parentTarget.transform;
-        transform.localPosition = new Vector3(0, 0, -0.1f);
+        transform.localPosition = new Vector3(-0.25f, -0.25f, -0.25f);
     }
     public IEnumerator GrowEffect()
     {

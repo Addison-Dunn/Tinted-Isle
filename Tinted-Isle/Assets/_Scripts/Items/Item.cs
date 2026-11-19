@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Identifiers;
 using UnityEngine.UIElements;
 
 public abstract class Item : MonoBehaviour
@@ -78,19 +79,19 @@ public abstract class Item : MonoBehaviour
         {
             HotbarSlot thisHotbarSlot = GameManager.Instance.slots[index];
 
-            if(firstEmptyContainer == null && thisHotbarSlot.transform.childCount == 0)
+            if (firstEmptyContainer == null && thisHotbarSlot.transform.childCount == 0)
             {
-                if((thisHotbarSlot.queuedItem != null && thisHotbarSlot.queuedItem.identifier == identifier) ||
+                if ((thisHotbarSlot.queuedItem != null && thisHotbarSlot.queuedItem.identifier == identifier) ||
                    thisHotbarSlot.queuedItem == null)
                 {
                     firstEmptyContainer = thisHotbarSlot.gameObject;
                 }
             }
 
-            if(thisHotbarSlot.transform.childCount != 0)
+            if (thisHotbarSlot.transform.childCount != 0)
             {
                 Item item = thisHotbarSlot.GetComponentInChildren<Item>();
-                if(item.identifier == identifier && item.queuedCount < item.maxCount - 1)
+                if (item.identifier == identifier && item.queuedCount < item.maxCount - 1)
                 {
                     item.queuedCount += count;
                     container = thisHotbarSlot.gameObject;
@@ -100,18 +101,19 @@ public abstract class Item : MonoBehaviour
             index++;
         }
 
-        if(container == null)
+        if (container == null)
         {
             HotbarSlot hotbarSlot = firstEmptyContainer.GetComponent<HotbarSlot>();
-            if(hotbarSlot.queuedItem == null) hotbarSlot.queuedItem = this;
+            if (hotbarSlot.queuedItem == null) hotbarSlot.queuedItem = this;
+            Debug.Log("empty Container: " + firstEmptyContainer.name);
             return firstEmptyContainer;
         }
         else
         {
+            Debug.Log("non empty Container: " + container.name);
             return container;
         }
     }
-
     public IEnumerator SendToContainerLerped(GameObject targetContainer, float duration, bool sendingToHotbarSlot)
     {
         transform.position = new Vector3(transform.position.x, transform.position.y, -3);

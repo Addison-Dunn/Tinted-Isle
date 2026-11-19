@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b944088166c0554aac482e3a3b81279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemFlower
-  Identifier: FlowerRed
+  identifier: FlowerRed
   unMaskedFont: {fileID: 11400000, guid: d2cf6670a5467fb4fa745e48936a9f54, type: 2}
   maskedFont: {fileID: 11400000, guid: 2d8130df934762341b7005ee0e02a6b0, type: 2}
   countText: {fileID: 2511833292138780059}
