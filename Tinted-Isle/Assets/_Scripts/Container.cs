@@ -33,16 +33,20 @@ public class Container : MonoBehaviour
                 {
                     // if no contained item, just send the item to me
                 }
+                // if I have an item
                 else if (containedItem != null)
                 {
+                    // if the item is the same as the item being dropped
                     if (containedItem.identifier == heldItem.identifier)
                     {
+                        // if the item I have has room for more
                         if (containedItem.count < containedItem.maxCount)
                         {
 
                         }
                     }
                     else
+                    // otherwise, swap the item im holding with the item the mouse is holding
                     {
 
                     }
