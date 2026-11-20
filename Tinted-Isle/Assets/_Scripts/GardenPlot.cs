@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.Diagnostics;
 using UnityEngine.InputSystem;
 
+public enum GardenPlotLevel { marsh, wet, normal, dry, desert}
 public class GardenPlot : MonoBehaviour
 {
     public SpriteRenderer sr;
@@ -14,8 +15,8 @@ public class GardenPlot : MonoBehaviour
     public Sprite wet2;
 
     public float growth;
-    public float dryness;
-    public float wetness;
+
+    public GardenPlotLevel gplevel = GardenPlotLevel.normal;
 
     private InputAction clickAction;
 

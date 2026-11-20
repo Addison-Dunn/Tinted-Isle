@@ -9,12 +9,13 @@ public abstract class Item : MonoBehaviour
     [Header("Inherited")]
     public string identifier;
     [Header("Count text")]
-    public TMP_FontAsset unMaskedFont;
-    public TMP_FontAsset maskedFont;
+    [HideInInspector] public TMP_FontAsset unMaskedFont;
+    [HideInInspector] public TMP_FontAsset maskedFont;
 
     public TextMeshPro countText;
     public int maxCount;
     public int count;
+
     [HideInInspector] public int queuedCount;
 
     [HideInInspector] public GameObject lastContainer;
@@ -25,14 +26,15 @@ public abstract class Item : MonoBehaviour
     [Header("Dropped Item")]
     public AnimationCurve easing;
     public bool droppedItem;
-    bool dropped;
 
+     public bool held;
     private void Start()
     {
-        if(transform.parent != null) lastContainer = transform.parent.gameObject;
+        unMaskedFont = Library.Instance.unMaskedFont;
+        maskedFont = Library.Instance.maskedFont;
+        if (transform.parent != null) lastContainer = transform.parent.gameObject;
         UpdateCountText();
     }
-
     public virtual void SendToContainer(GameObject targetContainer)
     {
         transform.parent = targetContainer.transform;

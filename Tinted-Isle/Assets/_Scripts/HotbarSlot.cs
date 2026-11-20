@@ -30,6 +30,7 @@ public class HotbarSlot : MonoBehaviour
 
                 queuedItem = containedItem;
 
+                containedItem.held = true;
                 containedItem.gameObject.transform.parent = ps.mousePosGO.transform;
                 containedItem.gameObject.transform.localPosition = Vector2.zero;
                 Vector3 itemPos = containedItem.gameObject.transform.position;
@@ -47,6 +48,7 @@ public class HotbarSlot : MonoBehaviour
             if (hovered && ps.mousePosGO.transform.childCount != 0)
             {
                 Item mouseItem = ps.mousePosGO.GetComponentInChildren<Item>();
+                mouseItem.held = false;
                 // if this container is empty
                 if (gameObject.transform.childCount == 0)
                 {

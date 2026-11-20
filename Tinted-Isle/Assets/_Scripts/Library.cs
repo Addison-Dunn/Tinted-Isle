@@ -1,4 +1,6 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 public class Library : MonoBehaviour
 {
@@ -9,7 +11,9 @@ public class Library : MonoBehaviour
     public AnimationCurve flowerRegress;
     public AnimationCurve itemBounce;
     public AnimationCurve itemShrink;
-    
+
+    public TMP_FontAsset unMaskedFont;
+    public TMP_FontAsset maskedFont;
     private void Awake()
     {
         Instance = this;

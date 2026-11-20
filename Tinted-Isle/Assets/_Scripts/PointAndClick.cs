@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class PointAndClick : MonoBehaviour
 {
+    public static PointAndClick Instance;
+
     public GameObject mousePosGO;
     public InputActionAsset inputAction;
     private InputAction clickAction;
@@ -16,6 +18,11 @@ public class PointAndClick : MonoBehaviour
     public UnityEvent onClickRelease;
     public UnityEvent onRightClickPush;
     public UnityEvent onRightClickRelease;
+
+    private void Start()
+    {
+        Instance = this;
+    }
     private void Awake()
     {
         clickAction = InputSystem.actions.FindAction("Click");
